@@ -1,6 +1,8 @@
 package com.lnmiit.plinth.Fragment;
 
 
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -26,11 +28,31 @@ public class HomeFragment extends Fragment {
         tabLayout = (TabLayout)v.findViewById(R.id.home_tab);
         viewPager = (ViewPager)v.findViewById(R.id.home_pager);
         HomeAdapter homeAdapter =new HomeAdapter(getChildFragmentManager());
-        homeAdapter.addFragment(new CompetitionFragment(),"Competition");
-        homeAdapter.addFragment(new WorkshopFragment(),"Workshop");
-        homeAdapter.addFragment(new LectureFragment(),"Lecture");
+        homeAdapter.addFragment(new CompetitionFragment(),"");
+        homeAdapter.addFragment(new WorkshopFragment(),"");
+        homeAdapter.addFragment(new LectureFragment(),"");
         viewPager.setAdapter(homeAdapter);
         tabLayout.setupWithViewPager(viewPager);
+        tabLayout.getTabAt(0).setIcon(R.drawable.ic_cup);
+        tabLayout.getTabAt(1).setIcon(R.drawable.ic_pottery_man);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_conference);
+        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                tab.getIcon().setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_IN);
+
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+                tab.getIcon().setColorFilter(Color.parseColor("#9AA2AE"), PorterDuff.Mode.SRC_IN);
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
         return v;
     }
 
