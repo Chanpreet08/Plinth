@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.lnmiit.plinth.Model.Data;
 import com.lnmiit.plinth.R;
 
 import java.util.ArrayList;
@@ -18,10 +19,13 @@ import java.util.ArrayList;
 
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
     private Context context;
+    private ArrayList<Data> list = new ArrayList<>();
+    private int images[] ={R.drawable.ic_saturn,R.drawable.ic_coding,R.drawable.ic_robotics,R.drawable.ic_quiz,R.drawable.ic_literary,R.drawable.ic_analytics};
 
-    public CardAdapter(Context context)
+    public CardAdapter(Context context,ArrayList<Data> list)
     {
         this.context = context;
+        this.list =list;
     }
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -32,12 +36,14 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-
+        holder.image.setImageResource(images[position]);
+        holder.title.setText(list.get(position).getTitles());
+        holder.description.setText(list.get(position).getDescription());
     }
 
     @Override
     public int getItemCount() {
-        return 8;
+        return list.size();
     }
 
     protected class ViewHolder extends RecyclerView.ViewHolder
