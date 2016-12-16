@@ -8,4 +8,27 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about_us">
+        Plinth is the annual inter college Techno-Management-Literary Festival of the LNMIIT, Jaipur.
+
+        A bud when comes out of its cover, strives for the glow which could make it an attractive flower. So, here in Plinth as we celebrate the third year of its
+        successful organization, we are proud to say that the bud found its glow in the enthusiasm and the confidence of its participants.
+
+        Plinth brings immense opportunities for all the enthusiasts to showcase their talents and skills. The coalescence of all the different fields of career
+        takes place at various corners of a single place. It starts with a typical morning that brings everyone out of their warm coziness. Ready and suited to
+        make it grand and successful, after the long days of hard work. Rushing out fearlessly to know and gather all that is offered. For some it is where the
+        key to this whole new world of technology and innovation is found. While for others, it is where they meet new friends whom they can take along in their
+        journey to learn more and conquer this huge expanse of science.
+
+        The creaks of the robots clashing, the noise of the people debating, and the thunder of claps for the speaker who would have just kindled hundreds of
+        hearts, mark the plinth days. With an enormous amount of rage and knowledge facing off under one roof, it is a spark created by the meet of inspiration
+        and technology. While the end, with a blithesome entertainment that is sure to rejuvenate all after the long day of learning and competing.
+
+        Get ready to experience the elegance of science in its style. Once you are here, you are no more a student or a teacher, but a learner for whom there are
+        lots kept in store to explore. See what is happening around the world. What is it that which is made for you? Come and join us to listen to the stories
+        that everyone has got to share.
+        
+        Learn and take away with you a truly enriching experience.
+    </string>
 </resources>

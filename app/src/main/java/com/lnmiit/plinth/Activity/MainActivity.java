@@ -1,5 +1,6 @@
 package com.lnmiit.plinth.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -13,6 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.lnmiit.plinth.Fragment.AboutUsFragment;
+import com.lnmiit.plinth.Fragment.ContactUsFragment;
 import com.lnmiit.plinth.Fragment.HomeFragment;
 import com.lnmiit.plinth.R;
 
@@ -81,11 +84,13 @@ public class MainActivity extends AppCompatActivity
             fragment = new HomeFragment();
 
         } else if (id == R.id.contact_us) {
-
+            fragment = new ContactUsFragment();
         } else if (id == R.id.share) {
-
+            Intent shareIntent = new Intent(Intent.ACTION_SEND);
+            shareIntent.setType("text/plain");
+            startActivity(Intent.createChooser(shareIntent,"Share With"));
         } else if (id == R.id.about_us) {
-
+            fragment =  new AboutUsFragment();
         } else if (id == R.id.developers) {
 
         }
