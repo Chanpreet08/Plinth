@@ -25,12 +25,12 @@ public class MyApplication extends Application {
     private void printHashKey() {
         try {
             PackageInfo info = getPackageManager().getPackageInfo(
-                    "Your package name",
+                    "com.facebook.samples.loginhowto",
                     PackageManager.GET_SIGNATURES);
             for (Signature signature : info.signatures) {
                 MessageDigest md = MessageDigest.getInstance("SHA");
                 md.update(signature.toByteArray());
-                Log.d("chanpreet", Base64.encodeToString(md.digest(), Base64.DEFAULT));
+                Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
             }
         } catch (PackageManager.NameNotFoundException e) {
 

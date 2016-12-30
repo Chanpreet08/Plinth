@@ -35,4 +35,5 @@
     <string name="facebook_app_id">1656250501335022</string>
     <string name="fb_login_protocol_scheme">fb1656250501335022</string>
     <string name="server_client_id">648966113918-ur406undh8rd0nh35o1ulvrhpl9ftg6t.apps.googleusercontent.com</string>
+    <string name="login_text">Register yourself for different competitions through this portal to know further details and proceedings of PLINTH17. Moreover if you register through this platform , you would be able to get exclusive coupons and offers.</string>
 </resources>
