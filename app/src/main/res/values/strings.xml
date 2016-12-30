@@ -31,4 +31,8 @@
         
         Learn and take away with you a truly enriching experience.
     </string>
+
+    <string name="facebook_app_id">1656250501335022</string>
+    <string name="fb_login_protocol_scheme">fb1656250501335022</string>
+    <string name="server_client_id">648966113918-ur406undh8rd0nh35o1ulvrhpl9ftg6t.apps.googleusercontent.com</string>
 </resources>
