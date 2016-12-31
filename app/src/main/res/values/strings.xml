@@ -36,4 +36,21 @@
     <string name="fb_login_protocol_scheme">fb1656250501335022</string>
     <string name="server_client_id">648966113918-ur406undh8rd0nh35o1ulvrhpl9ftg6t.apps.googleusercontent.com</string>
     <string name="login_text">Register yourself for different competitions through this portal to know further details and proceedings of PLINTH17. Moreover if you register through this platform , you would be able to get exclusive coupons and offers.</string>
+    <string-array name="competitions">
+        <item>Astronomy</item>
+        <item>Coding</item>
+        <item>Robotics</item>
+        <item>Quizzing</item>
+        <item>Literature</item>
+        <item>Management</item>
+    </string-array>
+
+    <string-array name="competitions_description">
+        <item>Universe- unimaginably large and still right down to being incredibly small.</item>
+        <item>Coders are the ones who can storm off their brains and come up with a new solution to each problem that exists.</item>
+        <item>Robots are fun to play with; robots are even much more fun to build.</item>
+        <item>You think you know this world? You think you know this world?</item>
+        <item>Bring alive the artist in you and heave yourself in the ocean of literature</item>
+        <item>From the street fairs to the global economy, we are filled to the brim with hustle and bustle every now and then.</item>
+    </string-array>
 </resources>

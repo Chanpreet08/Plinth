@@ -22,7 +22,6 @@ import java.util.ArrayList;
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
     private Context context;
     private ArrayList<Data> list = new ArrayList<>();
-    private int images[] ={R.drawable.ic_saturn,R.drawable.ic_coding,R.drawable.ic_robotics,R.drawable.ic_quiz,R.drawable.ic_literary,R.drawable.ic_analytics};
 
     public CardAdapter(Context context,ArrayList<Data> list)
     {
@@ -38,7 +37,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.image.setImageResource(images[position]);
+        holder.image.setImageResource(list.get(position).getImages());
         holder.title.setText(list.get(position).getTitles());
         holder.description.setText(list.get(position).getDescription());
     }

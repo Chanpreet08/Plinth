@@ -1,10 +1,12 @@
 package com.lnmiit.plinth.Activity;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -21,6 +23,7 @@ public class SubActivity extends AppCompatActivity {
     private LinearLayoutManager linearLayoutManager;
     private ArrayList<Data> list = new ArrayList<>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +34,9 @@ public class SubActivity extends AppCompatActivity {
         linearLayoutManager = new GridLayoutManager(this,2);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(linearLayoutManager);
+
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

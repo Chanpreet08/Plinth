@@ -8,6 +8,15 @@ public class Data {
     private int id ;
     private String title;
     private String description;
+    private int image;
+
+    public int getImages() {
+        return image;
+    }
+
+    public void setImages(int image) {
+        this.image = image;
+    }
 
     public Data()
     {
@@ -16,10 +25,11 @@ public class Data {
         description = "";
     }
 
-    public Data( String title, String description)
+    public Data( String title, String description, int image)
     {
         this.title = title;
         this.description = description;
+        this.image = image;
     }
 
     public int getId() {
