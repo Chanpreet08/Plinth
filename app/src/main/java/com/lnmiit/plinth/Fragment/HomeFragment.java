@@ -33,11 +33,13 @@ public class HomeFragment extends Fragment {
         homeAdapter.addFragment(new CompetitionFragment(),"");
         homeAdapter.addFragment(new WorkshopFragment(),"");
         homeAdapter.addFragment(new LectureFragment(),"");
+        homeAdapter.addFragment(new ProfileFragment(),"");
         viewPager.setAdapter(homeAdapter);
         tabLayout.setupWithViewPager(viewPager);
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_cup);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_pottery_man);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_conference);
+        tabLayout.getTabAt(3).setIcon(R.drawable.ic_person_white_24px);
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
