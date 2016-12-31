@@ -139,15 +139,6 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Profile profile = Profile.getCurrentProfile();
-        if (profile != null) {
-            //text.setText("Hi " + profile.getName());
-        }
-    }
-
     private void signOut() {
         Auth.GoogleSignInApi.signOut(googleApiClient).setResultCallback(
                 new ResultCallback<Status>() {
