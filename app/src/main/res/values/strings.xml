@@ -53,4 +53,62 @@
         <item>Bring alive the artist in you and heave yourself in the ocean of literature</item>
         <item>From the street fairs to the global economy, we are filled to the brim with hustle and bustle every now and then.</item>
     </string-array>
+
+    <string-array name="Astronomy">
+        <item>Armageddon</item>
+        <item>Astro Hunt</item>
+        <item>Star Trek</item>
+    </string-array>
+    <string-array name="Astronomy_description">
+        <item>Fate of humanity lies in your Hands.</item>
+        <item>Solve the mysteries of Universe.</item>
+        <item>Voyage to different celestial bodies.</item>
+    </string-array>
+    <string-array name="coding">
+        <item>Fix The Bug</item>
+        <item>IUPC</item>
+        <item>IUPC Distraction</item>
+    </string-array>
+    <string-array name="coding_description">
+        <item>Can you spot a bug the way a eagle spots a mouse.</item>
+        <item>See logic in everything around? Is your daily grammar a Syntax?</item>
+        <item>You can code alright. But can you code while being distracted?</item>
+    </string-array>
+    <string-array name="robotics">
+        <item>LFR</item>
+        <item>Quadcopter</item>
+        <item>Transporter</item>
+        <item>Roborace</item>
+        <item>Robowar</item>
+        <item>Robosoccer</item>
+    </string-array>
+    <string-array name="robotics_description">
+        <item>An Autonomous bot that follows black line on white surface or vice-versa.</item>
+        <item>Design a wireless remote controlled flying platform and beat obstacles.</item>
+        <item>Build a robot that is capable of picking up and depositing blocks.</item>
+        <item>Construct a remote controlled robot which can run fast and evade obstacles.</item>
+        <item>Test your robot against another in a field of combat.</item>
+        <item>Build bots capable of playing soccer on a robo-soccer arena</item>
+    </string-array>
+    <string-array name="quiz">
+        <item>The Quest</item>
+    </string-array>
+    <string-array name="quiz_description">
+    <item>LNMIIT Quiz Club organizes thrilling quizzing events.</item>
+    </string-array>
+    <string-array name="literature">
+        <item>Wrangle</item>
+        <item>Rostrum</item>
+    </string-array>
+    <string-array name="literature_description">
+        <item>Wrangle or hush- lets discuss the issues that concern us.</item>
+        <item>Words are pale shadows of forgotten names.</item>
+    </string-array>
+
+<string-array name="management">
+<item>SIF</item>
+</string-array>
+<string-array name="management_description">
+<item>SIF brings budding startups and aspiring students together.</item>
+</string-array>
 </resources>
