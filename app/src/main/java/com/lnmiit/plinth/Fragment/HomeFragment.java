@@ -12,8 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.lnmiit.plinth.Adapter.HomeAdapter;
-import com.lnmiit.plinth.Data.Dbhelper;
-import com.lnmiit.plinth.Model.Data;
 import com.lnmiit.plinth.R;
 
 /**
@@ -35,6 +33,7 @@ public class HomeFragment extends Fragment {
         homeAdapter.addFragment(new LectureFragment(),"");
         homeAdapter.addFragment(new ProfileFragment(),"");
         viewPager.setAdapter(homeAdapter);
+        viewPager.setOffscreenPageLimit(4);
         tabLayout.setupWithViewPager(viewPager);
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_cup);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_pottery_man);

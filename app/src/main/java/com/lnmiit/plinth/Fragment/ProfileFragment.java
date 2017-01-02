@@ -52,7 +52,6 @@ public class ProfileFragment extends Fragment {
                 SharedPreferences.putSharedPrefeneces(getActivity().getApplicationContext(), u);
                 Intent i = new Intent(getActivity().getApplicationContext(), LoginActivity.class);
                 startActivity(i);
-                getActivity().finish();
             }
         });
         return v;

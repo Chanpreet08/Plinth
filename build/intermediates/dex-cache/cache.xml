@@ -3,96 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
-        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-10.0.1_b4ab4d057337f56b3de4cd26194bf5abe650c652.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_1b3f6119556976a044e6bacc69ca285c5888d0bd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_3bab787e475cbdaa5d660cac51c8da83c86de2a3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/chanpreet/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_cca17af2d60e61aac4e4bc49987518f793002c8f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_09669fe52671cd9491ac02c1392807b45906e947.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_13b036152fbbd7ecf2320aec858399d04f0478c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_4dbc7c8b8a7a5e1f5a22f6c1e8ec482c39bd1335.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_2c6e1ab054e4af80e725977718fcd71a3ac546f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_e4319505895071d446b00039dc7d1b0fe8d61b40.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
-        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.18.0_c19cf3e2553022ff8af4203790ba4162792f6098.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -129,6 +39,33 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-10.0.1_b4ab4d057337f56b3de4cd26194bf5abe650c652.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/me.relex/circleindicator/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1db6784d006818fee2591f13b0bf09ac31a3d49a">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/me.relex-circleindicator-1.2.2_d93bc98b6032884048658e0a71d47893371ad024.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_1b3f6119556976a044e6bacc69ca285c5888d0bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/chanpreet/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -156,6 +93,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_3bab787e475cbdaa5d660cac51c8da83c86de2a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -174,12 +120,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/chanpreet/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_cca17af2d60e61aac4e4bc49987518f793002c8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
         <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_8f869d7474f64a398f658052eaa61a36e7ab790f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_09669fe52671cd9491ac02c1392807b45906e947.jar" />
     </item>
     <item
         is-multidex="false"
@@ -192,12 +156,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_13b036152fbbd7ecf2320aec858399d04f0478c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
         <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_55bc28bac4b23e66fe38b08c4be26a57c03dd484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_4dbc7c8b8a7a5e1f5a22f6c1e8ec482c39bd1335.jar" />
     </item>
     <item
         is-multidex="false"
@@ -225,6 +207,33 @@
         revision="24.0.3"
         sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
         <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_245daf91c96724dd1138b9ba7eff736418cc3a67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_2c6e1ab054e4af80e725977718fcd71a3ac546f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_e4319505895071d446b00039dc7d1b0fe8d61b40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
+        <dex dex="/home/chanpreet/AndroidStudioProjects/Plinth/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.18.0_c19cf3e2553022ff8af4203790ba4162792f6098.jar" />
     </item>
     <item
         is-multidex="false"

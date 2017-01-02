@@ -36,4 +36,891 @@
     <string name="fb_login_protocol_scheme">fb1656250501335022</string>
     <string name="server_client_id">648966113918-ur406undh8rd0nh35o1ulvrhpl9ftg6t.apps.googleusercontent.com</string>
     <string name="login_text">Register yourself for different competitions through this portal to know further details and proceedings of PLINTH17. Moreover if you register through this platform , you would be able to get exclusive coupons and offers.</string>
+    <string-array name="competitions">
+        <item>Astronomy</item>
+        <item>Coding</item>
+        <item>Robotics</item>
+        <item>Quizzing</item>
+        <item>Literature</item>
+        <item>Management</item>
+    </string-array>
+
+    <string-array name="competitions_description">
+        <item>Universe- unimaginably large and still right down to being incredibly small.</item>
+        <item>Coders are the ones who can storm off their brains and come up with a new solution to each problem that exists.</item>
+        <item>Robots are fun to play with; robots are even much more fun to build.</item>
+        <item>You think you know this world? You think you know this world?</item>
+        <item>Bring alive the artist in you and heave yourself in the ocean of literature</item>
+        <item>From the street fairs to the global economy, we are filled to the brim with hustle and bustle every now and then.</item>
+    </string-array>
+
+    <string-array name="Astronomy">
+        <item>Armageddon</item>
+        <item>Astro Hunt</item>
+        <item>Star Trek</item>
+    </string-array>
+    <string-array name="Astronomy_description">
+        <item>Fate of humanity lies in your Hands.</item>
+        <item>Solve the mysteries of Universe.</item>
+        <item>Voyage to different celestial bodies.</item>
+    </string-array>
+    <string-array name="coding">
+        <item>Fix The Bug</item>
+        <item>IUPC</item>
+        <item>IUPC Distraction</item>
+    </string-array>
+    <string-array name="coding_description">
+        <item>Can you spot a bug the way a eagle spots a mouse.</item>
+        <item>See logic in everything around? Is your daily grammar a Syntax?</item>
+        <item>You can code alright. But can you code while being distracted?</item>
+    </string-array>
+    <string-array name="robotics">
+        <item>LFR</item>
+        <item>Quadcopter</item>
+        <item>Transporter</item>
+        <item>Roborace</item>
+        <item>Robowar</item>
+        <item>Robosoccer</item>
+    </string-array>
+    <string-array name="robotics_description">
+        <item>An Autonomous bot that follows black line on white surface or vice-versa.</item>
+        <item>Design a wireless remote controlled flying platform and beat obstacles.</item>
+        <item>Build a robot that is capable of picking up and depositing blocks.</item>
+        <item>Construct a remote controlled robot which can run fast and evade obstacles.</item>
+        <item>Test your robot against another in a field of combat.</item>
+        <item>Build bots capable of playing soccer on a robo-soccer arena</item>
+    </string-array>
+    <string-array name="quiz">
+        <item>The Quest</item>
+    </string-array>
+    <string-array name="quiz_description">
+        <item>LNMIIT Quiz Club organizes thrilling quizzing events.</item>
+    </string-array>
+    <string-array name="literature">
+        <item>Wrangle</item>
+        <item>Rostrum</item>
+    </string-array>
+    <string-array name="literature_description">
+        <item>Wrangle or hush- lets discuss the issues that concern us.</item>
+        <item>Words are pale shadows of forgotten names.</item>
+    </string-array>
+
+    <string-array name="management">
+        <item>SIF</item>
+    </string-array>
+    <string-array name="management_description">
+        <item>SIF brings budding startups and aspiring students together.</item>
+    </string-array>
+
+    <string-array name="astrohunt_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+
+    <string-array name="astrohunt_des">
+        <item>Foresee the unfathomable and explore the mysteries of the universe. Only the sharp, intelligent and astronomy enthusiasts will make it to the end. The route to solve the mysteries of the universe lies within the depths of the dark sky and your imagination. Its time to bring out the Galileo Galilee in you and look into the infinite cosmic depths.</item>
+        <item>1.At the beginning of the Astro Hunt each team will be given a map of the LNMIIT Campus and a Sky chart.\n
+              2.Astro Hunt will consist of 4 rounds.\n
+              3.At the beginning of each round every team will receive an identical set of clues or puzzles which must be solved in order to find a piece of information. This information could be words from a historical astronomical event, name of a star, planet or any other celestial body, cosmic theories or just a name of a person. The clues and puzzles will be related to astronomy in some manner and will lead to a location/check point within walking distance where players will use a vital piece of information to answer a question\n
+              4.After completing a round by solving the puzzles/clues and reaching the check point the teams will get a flag and the clues/puzzles for the next round.\n
+              5.Each flag will also consist of some information/clue. After collecting all the 4 flags the participants will have to solve the final puzzle.\n
+              6.The team which will collect all the 4 flags and solve the final puzzle in minimum time will be the winner.\n
+        </item>
+        <item>1.Members per team: 3-5.\n
+              2.Each team should have unique participants i.e. no two teams can have even one common name registered.\n
+              3.The participants have to reach the starting point 15 minutes before the event schedule.\n
+              4.All the team members should be present at each check point while receiving a token.\n
+              5.Decision of the volunteers at each check point will be final.\n
+              6.Usage of Internet is allowed.\n
+        </item>
+        <item>
+            Fee INR. : 100\n
+            Date : 18th Jan 2017\n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR. 20,000\n
+             \n For Any Queries Contact\n
+            Smriti Jha: +91-7742603667 | smritijha369@gmail.com\n
+            Kushagra Garg: +91-8561801305 | kushrulesu@gmail.com\n
+            astronomy.lnmiit@gmail.com
+        </item>
+    </string-array>
+
+    <string-array name="armageddon_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Judges</item>
+        <item>Register</item>
+    </string-array>
+
+    <string-array name="armageddon_des">
+        <item>
+            Scientists at NASA have discovered an asteroid 65 miles wide, named as Destroyer786. It is composed of large quantities of carbon molecules as well as the more usual rocks and metals.It has it\'s collision course set with Earth. The asteroid is supposed to make its impact 1.5 years from today. Destroyer786 is travelling at a speed of 30,000 miles per hour and is approaching the earth from the direction of the sun. Keeping the estimated flyby distance in mind, it is supposed to cause a mass destruction if not total wipeout of humanity from the face of Earth.\n
+            All countries have come together, understanding the grim situation and are ready to take extreme measures to stop the \'end of the world\'. You are chosen to be a part of core team of scientists that is going to save the humanity.\n
+            Devise a plan to save Earth and humanity.Fate of humanity lies in your hand.This event consists of two rounds. First round will be online. The participants have to submit a report before the given deadline. After the date of submission, we will select the teams for the second round on the basis of their report. All the teams selected teams will have to present their report in front of the judges during plinth.\n
+        </item>
+        <item>1.You have no economic constraints as all countries are willing to pool their resources in an attempt to save humanity.\n
+              2.You have 547 days in total to save earth, delay of even an hour will lead to human extinction.\n
+              3.Level of technology is not much advance than today, therefore make assumptions that are almost realistic.\n
+            The final project report should be mailed to astronomy.lnmiit@gmail.com with the subject Plinth: Armageddon Project Report: TeamId.
+            Last date of submission of project is 5th Jan 2017
+        </item>
+        <item>1.Any form of copying of textual material would lead to disqualification.\n
+              2.You can work alone or in a team of at most five.\n
+              3.One project should be submitted by only one team/individual. If same project is submitted by two teams/individuals, first one would be evaluated and second would be disqualified.\n
+                <b>\nFormat of the project:</b>\n
+              1.The project should be submitted in a pdf.\n
+              2.There is no strict format that you need to stick to. Make it as comprehensible as possible.\n
+        </item>
+        <item>
+            Evaluation Methodology:\n
+            1.Your report would be evaluated on how many different aspects you have deliberated upon and how many of these are in line with the physics of the planet.\n
+            2.The more descriptive you are, the more points your report will score.\n
+            3.You can use diagrams and pictures.\n
+        </item>
+        <item>
+            Fee INR. : 100\n
+            Date : 18th - 19th 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR. 20,000\n
+             \n For Any Queries Contact\n
+            Smriti Jha: +91-7742603667 | smritijha369@gmail.com\n
+            Kushagra Garg: +91-8561801305 | kushrulesu@gmail.com\n
+            astronomy.lnmiit@gmail.com
+        </item>
+    </string-array>
+
+    <string-array name="startrek_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+
+    <string-array name="startrek_des">
+        <item>
+            This event consists of 2 rounds: Spacewalk and Messier marathon. Detailed description of the event are as follows.\n
+            \n1st Round: Spacewalk:\n
+            It will be an audio-visual quiz related to astronomy.Pictures and videos would be projected in front and participants have to answer the questions that follow.\n
+            \n2nd Round: Messier Marathon:\n
+            So are you one of those who sneak out of your rooms during night hours and wander long gazing at the sky, trying to build up your imagination. Well folks then this is a perfect game for you to play, a hunt for the stars. Participants need to set themselves on a voyage of different celestial bodies and conquer to best of their capabilities. So, are you ready for this mission to get kicked off? See you at the battle field . A basic tutorial session would be held on handling of telescope and any further enhancements of the skills would be student’s personal interest.\n
+        </item>
+        <item>
+            Spacewalk:\n
+            1.Participants will have 1 minute to answer each question by writing it down on the given sheet.\n
+            2.These questions will be objective or one word.\n
+            3.Each question will carry 2 points.\n
+            4.Marks will be allotted to each question individually.\n
+            5.Only top 50% teams will go to the next round.\n
+           \nSpacewalk:\n
+            1.Teams will be provided with certain token numbers and called upon on its basis.\n
+            2.A star map, a laser pointer and telescope shall be provided to the team.\n
+            3.The teams which had qualified in the quiz would be required to point at certain celestial objects through pointer and telescope.\n
+            4.Minimum time shall be provided, based on which points are to be rewarded.\n
+            5.Team with maximum score would be declared winner.\n
+            6.Teams are suppose to restrain themselves from using any android application such as Google Sky Map or any other lectronic media.\n
+            7.Points will be given for locating the objects precisely only on first attempt.\n
+        </item>
+        <item>
+            General Rules:\n
+            1.Participants can form team of up to three.\n
+            2.Individual participants are also allowed.\n
+            3.Using mobile phones is not allowed.\n
+        </item>
+        <item>
+            Fee INR. : 100\n
+            Date : 18th - 19th Jan 2017
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR. 20,000\n
+            \n For Any Queries Contact\n
+            Smriti Jha: +91-7742603667 | smritijha369@gmail.com\n
+            Kushagra Garg: +91-8561801305 | kushrulesu@gmail.com\n
+            astronomy.lnmiit@gmail.com
+        </item>
+    </string-array>
+
+    <string-array name="fisthebug_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Judges</item>
+        <item>Register</item>
+    </string-array>
+
+    <string-array name="fixthebug_des">
+        <item>
+            \'Bloody instructions, which, being taught, return to plague the inventor …\'\n
+            -William Shakespeare,Macbeth, act 1, scene 7.\n
+            \nHow right the \'Bard of Avon\' was! Every programmer who has crossed skill levels beyond the \'hello world\' phase, has learnt to fear those mysterious fiends called bugs. Seeing the enigmatic \'seg. fault\' on the screen sends chills down the spine of even some veterans! To deal with such entities requires a level patience and skill that escapes ordinary programmers. Think you are up to it? Are you one of those gifted few who can spot a bug like the eagle does a mouse? Why doubt when you can find out!\n
+        </item>
+        <item>It is a debugging event with some restrictions on time and language. The questions will related to scripting or will ask to either debug some code with limited time frame to complete the event. It will be an onsite competition to be held during Plinth\’17
+             \nEVENT DURATION: 2 Hrs\n
+        </item>
+        <item>
+            Registration Rules\n
+            1.Team with maximum of 2 members is allowed.\n
+            2.All the members should be of same college.\n
+            3.To claim prize you need to be registered here.\n
+            \nContest Rules:\n
+            1.Each team is expected to carry a Linux (preferably Ubuntu 14.04) machine.\n
+            2.Language used for Problem codes is solely the decision of organizers.\n
+            3.The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.\n
+        </item>
+        <item>
+            Leaderboard from DoSelect will be considered for selecting winners, however in case of any conflicts the decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.\n
+        </item>
+        <item>
+            Fee INR. : 150\n
+            Date : 18th - 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR. 10,000\n
+             \n For Any Queries Contact\n
+            Pranay Pandey: +91-7073211971 | pranay.pnd@gmail.com\n
+            Satyam Shubham: +91-9431040039 | satyam.shubh3@gmail.com\n
+        </item>
+    </string-array>
+
+    <string-array name="iupc_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Judges</item>
+        <item>Register</item>
+    </string-array>
+
+    <string-array name="iupc_des">
+        <item>
+            See logic in everything around you? Is your daily grammar a \'SYNTAX\'?Algorithms and flow charts cloud your brain? Love to solve new and challenging problems?Then you should not miss out on IUPC the Inter University Programming Contest... go and Code the Code...!\n
+        </item>
+        <item>
+            This national level programming contest shall assess the intelligence through various rounds: First round will be held online followed by further onsite rounds which will be held during Plinth\'17\n
+            1.Platform: HackerEarth\n
+            2.Contest Durations: 3 Hours\n
+        </item>
+        <item>
+            Registration Rules\n
+            1.Team with maximum of 2 members is allowed.\n
+            2.All the members should be of same college.\n
+            3.One of the team member has to register on HackerEarth and should have a valid username for participation.\n
+            4.Team lead should have a valid HackerEarth handle. All submissions should be made from this handle only.\n
+            5.To claim prize you need to be registered here.\n
+            6.Selected teams will be called for onsite round(s) to be held during Plinth\'17.\n
+            7.Only the teams which participate in onsite rounds are eligible for prizes.\n
+
+            \nContest Rules:\n
+            1.For the programming questions in the test, you need to choose one language from the given list and attempt.\n
+            2.All inputs for the programming problem are from STDIN and output to STDOUT.\n
+            3.Programming questions have a \'Compile and Test\' option where you can run your solution against sample test cases, before submitting.\n
+            4.You can submit a solution for a programming problem as many times as you want.\n
+            5.The questions will be marked with the language in which solution is expected.\n
+            6.The solutions will be judged on the relative basis.\n
+            7.Time Limit Exceed might also mean that there is a syntax in your source code.\n
+        </item>
+        <item>
+           Leaderboard from HackerEarth will be considered for selecting winners, however in case of any conflicts the decision of the organizers in declaring the results will be final. No queries in this regard will be entertained\n
+            \nJudging Criteria:\n
+            1.Different problems have different points based on their relative difficulty level.\n
+            2.Participants are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.\n
+            3.The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.\n
+            4.Any participant found to be indulging in any form of malpractice or plagiarism will be immediately disqualified.\n
+            5.The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem (Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.\n
+
+        </item>
+        <item>
+            Fee INR. : 150\n
+            Date : 18th - 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR. 40,000\n
+             \n For Any Queries Contact\n
+            Pranay Pandey: +91-7073211971 | pranay.pnd@gmail.com\n
+            Satyam Shubham: +91-9431040039 | satyam.shubh3@gmail.com\n
+        </item>
+    </string-array>
+
+    <string-array name="distraction_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Judges</item>
+        <item>Register</item>
+    </string-array>
+
+    <string-array name="distraction_des">
+        <item>
+            \'A programming contest crossed with Interruption games\'.\n
+            Do you think you can code? Do you think you can code while being distracted? Do you have what it takes to get interrupted and then Compile?\n
+        </item>
+        <item>
+            Distraction IUPC is an IUPC-style programming contest crossed with various distractions (you will get to know when you enter in the contest arena!), where teams of three people try to solve as many programming problems as they can. Meanwhile, our Distraction Team will be doing what they can to make the job of programming more difficult and/or enjoyable.\n
+        </item>
+        <item>
+            Registration Rules\n
+            1.Only teams with exactly 2 members are allowed.\n
+            2.All the members should be of same college.\n
+            3.One of the team member has to register on HackerEarth and should have a valid username for participation.\n
+            4.Team lead should have a valid HackerEarth handle. All submissions should be made from this handle only.\n
+            5.Registration closes 60 minutes before the start of the contest.\n
+            6.To claim prize you need to be registered here.\n
+            7.Only the teams which participate in onsite rounds are eligible for prizes.\n
+
+            \nContest Rules:\n
+            1.Contest will be of 2 -2.5 hours\n
+            2.Distraction Rules will be introduced in contest arena. Teams are expected to follow them.\n
+            3.Plagiarism by any means will lead to immediate disqualification of the team.\n
+            4.The decision of Plinth Organizing Committee will be final.\n
+        </item>
+        <item>
+          Leaderboard from HackerEarth will be considered for selecting winners, however in case of any conflicts the decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.\n
+        </item>
+        <item>
+            Fee INR. : 150\n
+            Date : 18th - 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR. 10,000\n
+             \n For Any Queries Contact\n
+            Pranay Pandey: +91-7073211971 | pranay.pnd@gmail.com\n
+            Satyam Shubham: +91-9431040039 | satyam.shubh3@gmail.com\n
+        </item>
+    </string-array>
+
+    <string-array name="lfr_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+
+    <string-array name="lfr_des">
+        <item>
+            Line follower robots were one of the earliest automatic guided robots. They are able to follow a line marked on a contrasting background, usually a black line on a white surface or vice-versa. For Beginners it is usually their first robot to play with. It’s the most basic example of adding small intelligence to a robot, but it’s actually the designer’s intelligence!
+            \n\nOur event goals: Fun while Learning, Sharing, and Teamwork….Winning is secondary.\n
+        </item>
+        <item>
+            Problem Statement:\n
+            1.An Autonomous bot that follows black line on white surface or vice-versa.\n
+            2.There will be separate points for how the bots follows the path as well, the other parameter being time. Thus the bot with the most cumulative points will win.\n
+        </item>
+        <item>
+            General Rules\n
+            1.Max. Number of members in a team: 4.\n
+            2.No human intervention is allowed in between the race.\n
+            3.Point description will be disclosed on the spot before commencement of event.\n
+            4.Points earned will be calculated within the time limit and free time will be provided only once if any technical problem occurs.\n
+            5.In case of any discrepancies organiser’s decision will be final and binding.\n
+            6.The organizers reserve the right to change any or all of the rules as they desire. Change in the rules as if any will be informed through e- mail or via Facebook page.\n
+            7.Any team found flouting any rules would be automatically disqualified.\n
+            8.The width of the line will be 22-25 mm.\n
+            9.The track will contain certain number of check-points and if the bot goes out of the track then it has to start with the previous check - point and have to be completed in a stipulated time limit.\n
+
+            \nRobot Specification:\n
+            1.The weight of the bot should not be more than 2kgs (excluding power source).\n
+            2.Only wheels are allowed for locomotion.\n
+            3.At all times, bots behaviour should be non-offensive, non-destructive and non-harmful to humans and track.\n
+            4.The bot should fit in a box dimensions 30 X 25 X 25 cm.\n
+            5.Bots are not allowed to fly or jump.\n
+            6.Internal combustion engine cannot be used.\n
+        </item>
+        <item>
+            Fee INR. :  200 \n
+            Date : 18th - 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR.25,000\n
+             \n For Any Queries Contact\n
+            Vinay Sharma : +91 - 9810340897\n
+            Anjali Gupta: +91 - 9460797535\n
+        </item>
+    </string-array>
+
+    <string-array name="quadcopter_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="quadcopter_des">
+        <item>
+           The Drone Obstruction is a copter controlled-flying competition presented to you by Plinth, The LNMIIT giving you an opportunity to showcase your talents through this event with your performances. You will be judged in both the aspects of the bot that is on the expertise of your flying skill and the stability of your bot. Participate to express your aerodynamics skills.\n
+        </item>
+        <item>
+            Arena:\n
+            The track is in the shape of three letters ‘L’, ‘N’, ‘M’ which signifies our college name LNMIIT.\n
+            Rules for first part:\n
+            Path consists of a letter ‘L’ of a zig zag path structure with gaps of 1m .\n
+            Task and Evaluation:\n
+            For the path shaped like letter ‘L’, for crossing each pillar in a zig-zag motion 40 points will be awarded. If the drone fails to cross the pillar in zig-zag motion no points will be awarded. For completing the whole path an extra 50 points will be awarded. Therefore the total points for fully completing the path is 200 points.\n
+            Rules for second part:\n
+            1.Path consists of a letter ‘N’ which evaluates spot landing skills of pilot.\n
+            2.The length of the checkpoint is 3.45m and the maximum width of the path is 0.85m.\n
+            Task:\n
+            1.Maximum 300 points for this round.\n
+            2.The track is to be covered from A to E alphabetically and then to the END and land such that the centre of the model overlaps the centre of the END circle.\n
+            3.No points will be given if the model is outside the instructed track. Also, it will lead to the end of your attempt of the round.\n
+            4.Points will only be given if model completely landed on final END position of the checkpoint. In this case your legs of model should be on lines of that position that describe in arena for the model. No points will be given if model does not lie on the lines perfectly.\n
+            5.Point will not be given until your model is not completely landed.\n
+            6.Maximum time after take-off from starting point will be 4 min.\n
+            7.There will be only one time-out after take-off from starting point and before you finish the checkpoint for 2 minutes for which points will be deducted.\n
+            Evaluation:\n
+            1.Each point has 50 points and for landing the centre of the model on the centre of the end has 50 points ; if landing is not correct , no marks will be awarded.\n
+            2.Full marks will be given if the model lands in the inner circle, if the model lands in the outer circle and if it lies somewhere outside the outer circle too, no points will be awarded.\n
+            3.350 points will be given when the part is completed without skipping any.\n
+            4.Points will be deducted for the timeout.\n
+            Rules for third part:\n
+            The path is shaped like letter ‘M’ consisting of one square, horizontal and vertical loops with decreasing radius and a final landing spot.\n
+            Task :\n
+            1.Maximum points will be given only if the rotor crosses over the obstacles.\n
+            2.No point will be given when rotor touches the ground before completing all the obstacles.\n
+            3.Side of square will be 150cm.\n
+            4.Diameter of the vertical circles( 3rd and 5th) will be 140cm and 120cm respectively.\n
+            5.Diameter of the horizontal circles (2nd and 4th) will be 150cm and 130cm respectively.\n
+            6.Radius of circle for spot landing will be 80cm(drawn on the ground). All the obstacles are placed at an angle of 90 degrees to the next obstacle (except the rectangular entry gate) on a circle of diameter of 8 m.\n
+            Evaluation:
+            7.Maximum 350 points in this round.\n
+            8.40 points if the model crosses 1st obstacle.\n
+            9.50 points if the model crosses 2nd obstacle (2nd circle- horizontal ).\n
+            10.60 points if the model crosses 3rd obstacle (3rd circle- vertical ).\n
+            11.70 points if the model crosses 4th obstacle (4th circle- horizontal ).\n
+            12.80 points if the model crosses 5th obstacle (5th circle- vertical ).\n
+            13.Round will be considered as ended if model touches the ground.\n
+            14.Penalty of -10 points will be given if model misses any of the obstacle.\n
+            15.Maximum time after take-off will be 6 minutes.\n
+            Bonus points:\n
+            16.50 points for spot landing in last circle.\n
+            17.No point will be given if any part of model touches or lies outside the circle during spot landing.\n
+            18.This has to be done only after crossing all the obstacles.\n
+            19.No extra time will be provided for landing. It has to performed within 6 minutes given for round-2.\<n></n>
+        </item>
+        <item>
+            General Rules\n
+            1.Points earned will be calculated within the time limit and free time will be provided only once if any technical problem occurs.\n
+            2.In case of any discrepancies organiser’s decision will be final and binding.\n
+            3.The organizers reserve the right to change any or all of the rules as they desire. Change in the rules as if any will be informed through e- mail or via Facebook page.\n
+            4.Any team found flouting any rules would be automatically disqualified.\n
+            Machine Specification:\n
+            1.Machine should fit into the dimension box of 50cm x 50cm x 30cm.\n
+            2.Machines should be powered/propelled by non¬ hydrocarbon engine.\n
+            3.Teams can bring not only Drones but other flying machines as mentioned Zeplin, Coaxial chopper, Tail rotor chopper, Quadrotor, Hexapod, Tripod and Octacopter.\n
+            Eligibility:\n
+            All students with a valid identity card of their respective educational institutions are eligible to participate with team size of maximum 6 members.\n
+        </item>
+        <item>
+            Fee INR. :600  \n
+            Date : 18th - 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR.50,000\n
+             \n For Any Queries Contact\n
+            Nikhil Paliwal : +91 - 7737260009\n
+            Meenakshi Modi : +91 - 7790944061\n
+        </item>
+    </string-array>
+
+    <string-array name="transporter_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="transporter_des">
+        <item>
+            Assume you are in a virtual gaming world. Virtual reality gaming is where a person can experience being in a three-dimensional environment and interact with that environment during a game. This is an essential part of the game.\n
+            \nThink that there is sudden attack by foe army on a castle and here king, some courtier, some other people are trapped inside the castle. Our aim is to design a transporter robot which has to save all the trapped people from castle. The task is mammoth and the time is minimal.\n
+        </item>
+        <item>
+          Problem Statement:\n
+            Manual Bot Task :\n
+            1.As the game starts, the manual bot has to pick people and secure them by transferring to conveyor assembly help them to get out of castle.\n
+            2.There will be a king, some Courtier and common people which are trapped in a castle arena.\n
+            3.Aim of bot is to save maximum people trapped in an arena.\n
+            Game Field And Objects: Description\n
+            1.The field consists of an area having the dimension of 3600mm x 2400mm and surrounded by a wooden fence with a height of 100mm.\n
+            2.The common people will be of size 50x50x50mm having hooks on them and Courtier will be of size 60 x 60 x 60mm and king will be of size 80 x 80 x 80mm.\n
+            3.There are three points, point ‘START’ for manual bot to start and other two points for safe pit where conveyor is fixed.\n
+            4.One conveyor will be for common people and other for Courtier and king both situated at opposite corners.\n
+            5.Safe pits will be of 100 x 100mm (lxb).\n
+            6.At maximum there will be 5 Courtier and 10 common people and one king in the arena.\n
+            Completion Tasks :\n
+            1.As the game begins the manual bot, starting from point ‘START’ can now pick the people and start putting them on conveyor assembly.\n
+            2.After picking up all the people manual bot has to pick the king from where he is trapped.\n
+            3.Meanwhile conveyor assembly will start saving the people and transferring them to the safe pits.\n
+        </item>
+        <item>
+            General Rules\n
+            1.A team can consist of a maximum of 4 members.\n
+            2.Each team must declare a name for their team at the time of competition.\n
+            3.The machines you build will be first checked for size and safety. The machine should not cause electric power breakdowns.\n
+            4.The machine must not contain any combustible, corrosive, or otherwise dangerous materials for safety reasons. No explosive compression or decompression, either internal or external is permitted.\n
+            5.Judges have the right to disqualify any machine whose working mechanism or game strategy is considered hazardous in any way.\n
+            Robot Specification:\n
+            1.Maximum dimension limits for manual bot is 400 x 300 x 250mm.\n
+            2.If any of the machines uses an externally placed power supply, the external power supply is not included in the size constraint. However in case of on-board power supply, the machine along with the power supply should fit in the above mentioned dimension box.\n
+            3.The machine must use only mechanical power or mechanical power converted from a source of electrical energy.\n
+            4.During the game the machine is allowed to expand as much as it can, provided it does not damage the arena.\n
+            5.In case of electric power supply, the voltage at any point must be lower or equal to 24V DC during the game.\n
+            6.The organizers will provide a standard 230V/50 Hz AC power supply.\n
+            7.Any eliminator, adaptor, etc. required will have to be arranged by participants themselves. No special demand will be entertained.\n
+            8.The manual bot must be controlled by wired or wireless remote control mechanism at all stages of game. In case of wired mechanism the wire must be slack at all point of time during the game.\n
+            9.The machine should not leave spare parts in the arena at any stage. This can lead to a time penalty or may even lead to disqualification.\n
+            10.Devices like hot air balloons/rockets which assist the machine in movement in any way are not permitted. Any kind of assistance for locomotion through wall is prohibited.\n
+            Violation and Disqualification:\n
+            1.During the match, the team members are not allowed to touch the machine or the arena without permission of referee. Failure to do so will lead to disqualification.\n
+            2.Any kind of damage to the arena will attract disqualification.\n
+            3.The teams will be asked to get ready 15 minutes before the start of their task. If a team is not ready within the stipulated time, they may be disqualified.\n
+            4.In any case, the decision of the judges will be final if they feel that any team is not playing with fair interest.\n
+            Game Procedure:\n
+            1.Length: 10 minutes.\n
+            2.As many as retries can be made only after the referee’s permission in cases such as when the robot is declared immobile.\n
+            3.Only the 2 team members per robot are allowed to touch the robot while placing it back to the retry point whose names should be given to coordinators before the game starts.\n
+
+            Eligibility:\n
+            All students with a valid identity card of their respective educational institutions are eligible to participate with team size of maximum 6 members.\n
+        </item>
+        <item>
+            Fee INR. :200  \n
+            Date : 18th - 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR.25,000\n
+             \n For Any Queries Contact\n
+            Akshat Airan : +91 - 7790852235\n
+        </item>
+    </string-array>
+
+    <string-array name="roborace_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="roborace_des">
+        <item>
+            For all those who believe in setting the place on fire! Here’s a live experience of a racing tournament. Build your own robot and come on board!\n
+            \nRobotics as a whole is a competition where people can showcase their technical skills. RoboRace is a competition where couple of Robots compete with each other in their speed and accurate control.\n
+            1.Construct Your Machine to have the maximum speed to beat another machines on the given track to reach the final destination in minimum time.\n
+            2.You have to build a manually controlled robot capable of traversing over different terrain and unseen hurdles.\n
+            3.There will be separate points for overcoming the obstacles as well as the other parameter being within time. Thus the bot with the most cumulative points will win.\n
+            4.The aim of the event is to check the robustness of the vehicle and its competence with the opponent on the same track.\n
+
+
+        </item>
+        <item>
+          Problem Statement:\n
+            1.Construct Your Machine to have the maximum speed to beat another machine on the given track to reach the final destination in minimum time.\n
+            2.You have to build a manually controlled robot capable of traversing over different terrain and unseen hurdles.\n
+            3.There will be separate points for overcoming the obstacles as well as the other parameter being within time. Thus the bot with the most cumulative points will win.\n
+            4.The aim of the event is to check the robustness of the vehicle and its competence with the opponent on the same track.\n
+            Task :\n
+            Design and construct a remote controlled (wired/wireless) robot capable not only running fast but also is capable of fighting hurdles on the track in the least time.\n
+            Robot Specification:\n
+            1.Only wheels are allowed for locomotion, conveyer belts may be used.\n
+            2.The weight of the bot should not be more than 1.5kgs (excluding power source).\n
+            3.The bot should fit in a box dimensions 20 X 17 X 15 cm.\n
+            4.At all times, bots behavior should be nonoffensive, nondestructive and non- harmful to humans and track.\n
+            5.Bots are not allowed to fly or jump.\n
+            6.Internal combustion engine cannot be used.\n
+            7.Also bot must not emit smoke or fire, leak, stain or soil, spray, throw or use projectiles.\n
+            8.Use of ic engines or compression is not allowed. All vehicles must depend only on motors for their propulsion and control.\n
+            9.The person who have made the robot should be able to explain the circuit and the program uploaded(if any).\n
+            Team Specification:\n
+            1.Any team can participate in Robo Race, Plinth. A team may consist of 3 to 4 member Participants. These participants can be from same or different institutes.\n
+            2.Team Representative: Each team must specify their Team Representative (Leader)at the time of registration on the website.\n
+            3.All important communications between organizers and the registered teams will be done through Team Representative.\n
+            4.Each student must have a valid IdCard of their college.\n
+            5.Team should check their bots properly before racing if there is any technical fault just before racing you are disqualified.\n
+            6.Teams start their vehicles at starting line, on a signal given by the event coordinators. The timing will begin as soon as the signal is given.\n
+            7.Your vehicle should always remain inside the track. If your vehicle leaves the track, at any point of time, it gets penalized.\n
+            8.A vehicle remaining stationary for more than 45 seconds gets disqualified.\n
+            9.The coordinators hold the direction to restart a race, in case of a valid reason to do so.\n
+            Track Specification:\n
+            1.The track will be 3035 cm wide.\n
+            2.The track will be having many zones.\n
+
+        </item>
+        <item>
+            General Rules\n
+            1.No human intervention is allowed in between the race.\n
+            2.The track will contain certain number of check-points and if the bot goes out of the track then it has to start with the previous check¬point.\n
+            3.There will be certain number of hurdles and obstacles. Each obstacle and hurdle will be assigned some specific points and have to be completed in a stipulated time limit.\n
+            4.Point description will be disclosed on the spot before commencement of event.\n
+            5.This will be solely based on total cumulative points of previous round.\n
+            6.One should not use the wires for lifting up or moving the bot.\n
+            7.Points earned will be calculated within the time limit and free time of 3 min will be provided Only once if any technical problem occurs.\n
+            8.In case of any discrepancies organizer’s decision will be final and binding.\n
+            9.The organizers reserve the right to change any or all of the rules as they desire.\n
+            10.Change in the rules as if any will be informed through e-mail or via Facebook page.\n
+            11.Participants need to carry their own power source (preferably 12V battery).\n
+        </item>
+        <item>
+            Fee INR. :200  \n
+            Date : 18th - 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR.25,000\n
+             \n For Any Queries Contact\n
+            Pushkar Garg : gargpushkar123@gmail.com | +91 8003243784\n
+            Ayush Shrivastava : ayush.shrivastava016@gmail.com | +91 8003236561\n
+            Parth Parashar : parthparashar1647@gmail.com | +91 9636640086\n
+        </item>
+    </string-array>
+
+    <string-array name="robowar_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="robowar_des">
+        <item>
+            Robots and destruction and all the ‘Michael Bay-isms’ that follow: is that what you crave for? Only this time you can be you can be a part of it. The arena is ready for you. Create the ultimate fighting machine on wheels and unleash inferno in the ring. Feel the adrenaline flow as you witness the death-tango of metal versus metal! PLINTH’17 welcomes you to Robo-War.\n
+        </item>
+        <item>
+          Problem Statement:\n
+            The challenge is to create a robot (manually controlled / autonomous) whose sole purpose is to push, throw, flip, drag, or otherwise move your opponent out of the arena within a stipulated time. This event aims to test your Robot against another in a field of combat where brute strength and cat-like reflexes hold the key to success.\n
+
+
+        </item>
+        <item>
+            Team Specification:\n
+            1.Any team can participate in this event. A team may consist of a maximum of 6 participants. These participants can be from same or different institutes.\n
+            2.Team Representative: Each team must specify their Team Representative (Leader) at the time of registration on the website. All important communications between PLINTH and the registered teams will be done through their Team Representative.\n
+            3.The Team Representatives must submit valid contact details (phone no., email ID etc.) at the time of registration.\n
+            Robot Specification:\n
+            1.The bot should not exceed the dimension 750mm x 750mm x 1000mm (l x b x h) at any point during the match.\n
+            2.External device used for control are not included in the size constraint.\n
+            3.The weight of bot should not exceed 60kg, including the weight of pneumatic source/tanks.\n
+            4.The weight of adapters and the remote controller will not be included in this constraint\n
+            5.The robots are not allowed to use grippers or actuations which are intended to harm the opponent’s robot.\n
+            Mobility:\n
+            1.All robots must have easily visible and controlled mobility in order to compete.\n
+            2.Methods of mobility include: Rolling (wheels, tracks or the whole robot), Walking (linear actuated legs with no rolling or cam operated motion), Ground effect air cushions (hovercrafts), Jumping and hopping is NOT allowed and Flying (airfoil using, helium balloons, ornithopters, etc.) is NOT allowed\n
+            Control Requirement:\n
+            1.Bot can be controlled wirelessly or with wire\n
+            2.In case of wired bot, wires should be stacked into a single unit and should be slack at every moment of the competition.\n
+            3.All the robots with wireless control should be able to change frequencies (if required) or coded channels to prevent any radio conflicts, it may be changed before the start of the match to avoid frequency interference with other teams\n
+            4.Remote controls available in market can also be used.\n
+            Battery and Power:\n
+            1.The machine can be powered electrically only. Use of an IC engine in any form is not allowed. On board batteries must be sealed, immobilized-electrolyte types (such as gel cells, lithium, NiCad, NiMH, or dry cells).\n
+            2.The electric voltage between 2 points anywhere in the machine should not be more than 36V DC at any point of time.\n
+            3.All efforts must be made to protect battery terminals from a direct short and causing a battery fire, failure to do so will cause direct disqualification.\n
+            4.Use of damaged, non-leak proof batteries may lead to disqualification.\n
+            5.Special care should be taken to protect the on-board batteries. If judges found that the battery is not properly protected, then team will be disqualified immediately.\n
+            6.Change of battery will not be allowed during the match.\n
+            7.Only bots with on board batteries are allowed. It is suggested to have extra battery ready and charged up during competition so that on advancing to next level, you don’t have to wait or suffer due to uncharged battery. If teams don’t show up on allotted slot, they will be disqualified.\n
+            Pneumantics:\n
+            1.Bot can use pressurized non-inflammable gases to actuate pneumatic devices\n
+            2.Maximum allowed outlet nozzle pressure is 10 bar.\n
+            3.The storage tank and pressure regulators used by teams need to be certified, and teams using pneumatics are required to produce appropriate safety and security letters at the Registration Desk.\n
+            4.Failing to do so will lead to direct disqualification.\n
+            5.Participants must be able to indicate cylinder pressure with integrated or temporarily fitted pressure gauge.\n
+            6.The maximum pressure in the robot\'s cylinder should not exceed the rated pressure at any point of time.\n
+            7.You must have a safe way of refilling the system and determining the pressure.Pneumatic systems on board the bot must only employ non-inflammable, non-reactive gases (CO2, Nitrogen and air are most common).\n
+            8.Particular attention must be given to the pressure vessel mounting and armor so that it does not leak even if ruptured.\n
+            Hydralics:\n
+            1.Bots can use non-inflammable liquids to actuate hydraulic devices like pistons or cylinders.\n
+            2.All hydraulic components on-board a bot must be securely mounted. Particular attention must be given to the pump, accumulator, mounting and armor to ensure that if ruptured, direct fluid streams will not escape the robot.\n
+            3.All hydraulic liquids are required to be non-corrosive, and your robot should be leak- proof.\n
+            4.Maximum allowed pressure is 10 bars. Participant must be able to indicate the used pressure with integrated or temporarily fitted pressure gauge.\n
+            Weapons Systems:\n
+            \nRobots can have any kind of magnetic weapons, cutters, flippers, saws, lifting devices, spinning hammers etc. as weapons with following exceptions and limitations:\n
+            1.Liquid projectiles.\n
+            2.Any kind of inflammable liquid.\n
+            3.Flame-based weapons.\n
+
+        </item>
+        <item>
+            Fee INR. :700  \n
+            Date : 18th - 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR.50,000\n
+             \n For Any Queries Contact\n
+           Chirag Agrawal : +91 - 7726061630\n
+           Shreeram Bansal : +91 - 9461214514\n
+            Parth Dadhich : +91 - 9413368618\n
+        </item>
+    </string-array>
+
+    <string-array name="robosoccer_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="roboscoccer_des">
+        <item>
+            Are you a technophile? Is playing soccer your forte? Ever thought of their combo. If not, Plinth’17 provides you the perfect opportunity to showcase your talent. Use your soccer enthusiasm and robotic skills to beat your opponent and become the ‘Ultimate Robosoccer Champion’ in Plinth’17. Be there or be square!\n
+        </item>
+        <item>
+          1.Each team will have to defend the goal on its side as well as score the goal on the opposite side.\n
+            2.The game will start at the count of 3 given by referee. In case a team starts its robot before the count of 3, the game will be restarted and a team making same mistake for more than 3 times will be disqualified.\n
+            3.The ball can be either dragged or pushed by the team.\n
+            4.The game will last for 5min.\n
+            5.In case of jam up of robots for than 30 sec., the robots will have to kick- off again at the order of the referee\n
+            6.Each goal scored by a team by rolling the ball on the ground will fetch the team by 1 point. (*or, Point description will be disclosed on the spot before commencement of the event.)\n
+
+
+        </item>
+        <item>
+            General Rules:\n
+            1.Registration fees is applicable per bot.\n
+            2.A team can consist of a maximum of 6 members.\n
+            3.Team should bring 3 bots with them or an Individual can bring 1 bot and build his team here.\n
+            4.Maximum 3 robot can play from one side/team.\n
+            5.Each team must declare a name for their team at the time of competition.\n
+            6.The machines you build will be first checked for size and safety. The machine should not cause electric power breakdowns.\n
+            7.The machine must not contain any combustible, corrosive, or otherwise dangerous materials for safety reasons. No explosive compression or decompression, either internal or external is permitted.\n
+            8.Judges have the right to disqualify any machine whose working mechanism or game strategy is considered hazardous in any way.\n
+            9.In case any kind of dispute arises the judges\’ decision will be considered final and binding to all and no argument will be entertained.\n
+            Robot Specification:\n
+            1.The weight limit of the robot for this competition is 5 kg.\n
+            2.Each robot should not exceed by max 30cm.\n
+            3.The start zone for the single robot is 500mm x 500mm.\n
+            4.The robot can extended to a dimension of 500mm x 500mm x 500mm max (independently) once it crosses the start zone.\n
+            5.The robots are not allowed to use grippers or actuations which are intended to harm the opponent’s robot.\n
+            Also Robot Must Not:\n
+            1.Emit smoke or fire.\n
+            2.Leak, stain or soil.\n
+            3.Spray, throw or use projectiles.\n
+            Violation And Disqualification:\n
+            1.During the match, the team members are not allowed to touch the machine or the arena without\n
+            2.The teams will be asked to get ready 15 minutes before the start of their match. If a team is not ready within the stipulated time, they may be disqualified.\n
+            3.In any case, the decision of the judges will be final if they feel that any team is not playing with fair interest.\n
+
+        </item>
+        <item>
+            Fee INR. :200  \n
+            Date : 18th - 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR.50,000\n
+             \n For Any Queries Contact\n
+        Milind Adhaulya: +91 - 9461289899\n
+        Ayush Mathur : +91 - 9680168770\n
+        </item>
+    </string-array>
+
+
+    <string-array name="quest_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="quest_des">
+        <item>
+           LNMIIT Quiz Club organizes thrilling quizzing events making our fests a terrific platform for avid quizzers and inquisitive minds to show their mettle to battle.\n
+            \nThis year we will be organising The Quest- general quiz covering all the topics from sports to entertainment, current affairs to history, business to technical knowledge.\n
+            \nGet ready to face the utlimate battle of wits to prove your knowledge among all the quizzers of the country.\n
+        </item>
+        <item>
+          1.Get ready to face the utlimate battle of wits to prove your knowledge among all the quizzers of the country.\n
+            2.The initial round (Prelims) will be a written elimination round. Each team should consist of exactly 2 members.\n
+            3.The final (mains) round will be between the top 6 teams from Prelims.\n
+            4.The decision of Quizmaster will be final and binding.\n
+        </item>
+        <item>
+            General Rules:\n
+            1.This event is open to all students.\n
+            2.The team should comprise of exactly 2 members.\n
+            3.An individual can be a part of only one registered team.\n
+            4.There is no cap on the number of teams registered per institute.\n
+            5.The decisions of the organizers of the contest will be final and binding on all the participants.\n
+            6.Quiz master is god.\n
+            7.Cross college teams are allowed.\n
+
+        </item>
+        <item>
+            Fee INR. :100  \n
+            Date : 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR.50,000\n
+             \n For Any Queries Contact\n
+     Dheeraj Gupta: 91-8387042427 | dheerajlnmiitcs@gmail.com\n
+        </item>
+    </string-array>
+
+    <string-array name="wrangle_heading">
+        <item>Synopsis</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="wrangle_des">
+        <item>
+           Wrangle or hush - let\’s discuss the issues that concerns us. A lot is going in our country and there are plethora of issues that deserves our attention. Plinth 2017 invites you to an open discussion that would intrigue you to speak and think about the issues that form a part of our daily lives.\n
+
+        </item>
+        <item>
+            General Rules:\n
+           1.Each participant will get maximum of 2 minutes to speak in one go.\n
+
+        </item>
+        <item>
+            Fee INR. :100  \n
+            Date : 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR.10,000\n
+             \n For Any Queries Contact\n
+     Bhavik Thakkar: +91-8003253190 | thakkarb97@gmail.com\n
+        </item>
+    </string-array>
+    <string-array name="rostrum_heading">
+        <item>Synopsis</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="rostrum_des">
+        <item>
+           Words are pale shadows of forgotten names. As names have power, words have power. Words can light fires in the minds of men. Words can draw opinion from the dreary heart. When words collide, they leave an immortal afterthought. Plinth’17 invites you to be part of the battle of thought and afterthought: ‘Rostrum- the Debate’. Take your stand among the best debaters of the country and wrangle your way to the top. Prove to the world why they call you the “sorcerer of words” and win exciting prizes!\n
+
+        </item>
+        <item>
+            General Rules:\n
+           1.Students are required to come in teams of two. One speaker shall be for the motion and the other shall be against. There is no restriction on the number of teams from a college.\n
+            2.Each speaker will get to express his/her views and hence rest the case within the time limit of 5 minutes.\n
+            3.After a speaker from each side will have spoken, the house will raise a question on which the consecutive for and against members will get a minute to convince the house in their favor.\n
+            4.The awards rewarded will be as follows:\n
+            1.First in “for the motion”.\n
+            2.Runner-up in “for the motion”.\n
+            3.First in “against the motion”\n
+            4.Runner-up in “against the motion”.\n
+
+        </item>
+        <item>
+            Fee INR. :100  \n
+            Date : 19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR.10,000\n
+             \n For Any Queries Contact\n
+     Bhavik Thakkar: +91-8003253190 | thakkarb97@gmail.com\n
+        </item>
+    </string-array>
+
+    <string-array name="sif_heading">
+        <item>Synopsis</item>
+        <item>Event Description</item>
+        <item>Rules</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="sif_des">
+        <item>
+          As the name very well suggests, SIF aims at bringing the budding startups and the aspiring students all under one umbrella. Here, the associated startups would be able to find just the right intern for their company whether it be for summers ,winters or workfrom-home. On the other hand, the students would be able to apply their acquired skills and broaden their technical horizons, by working in a thriving startup environment. The process would be an aggregated one and the students would be screened on the spot and would get the opportunity to land up amidst some cool entrepreneurs.\n
+
+        </item>
+        <item>
+            Our inboxes are usually spammed with emails from internship and training websites. With the startup boom in our country, fresh ideas are launching every day. They definitely need creative problem-solvers, out-of-the-box thinkers, who share the same vision as that of the company. Applying through virtual platforms is tedious and time-consuming. With multiple screening rounds, group discussions etc, the wait to hire the perfect candidate gets even longer! This is why we present to you SIF. We here at the Startup Intern Fair would open the gates of entrepreneurship to a lot of creative minds. Thus, to bridge the gap between the talent-seekers and the talented, we present Startup Intern Fair in its very second edition at PLINTH\'17, the annual techno-management literary fest of LNMIIT\n
+
+        </item>
+        <item>
+            1.Carry at least two passport size photographs and a valid College ID. Without it, your entry in SIF shall be denied.\n
+            2.Students must bring their own copies of resumes. Carry at least as many copies as the internship profiles you are applying for.\n
+            3.One student can apply for multiple internship openings but can be selected in maximum of three. Once a student gets selected in 3 internships, he/she shall be debarred from applying further.\n
+
+        </item>
+        <item>
+            Fee INR. :100  \n
+            Date : 18th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Prize Worth:INR.10,000\n
+             \n For Any Queries Contact\n
+    Akhilesh Maheshwari: +91-9772565365\n
+Mayuri Agrawal: +91-9414048295\n
+sif.plinth@gmail.com\n
+        </item>
+    </string-array>
 </resources>
