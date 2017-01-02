@@ -54,7 +54,23 @@
         <activity android:name=".Activity.RoboticsActivity" />
         <activity android:name=".Activity.QuizzingActivity" />
         <activity android:name=".Activity.LiteratureActivity" />
-        <activity android:name=".Activity.ManagementActivity"></activity>
+        <activity android:name=".Activity.ManagementActivity" />
+        <activity android:name=".Activity.ArmageddonActivity" />
+        <activity android:name=".Activity.AstroHuntActivity" />
+        <activity android:name=".Activity.StarTrekActivity" />
+        <activity android:name=".Activity.FixthebugActivity" />
+        <activity android:name=".Activity.IupcActivity" />
+        <activity android:name=".Activity.DistarctionIupcActivity" />
+        <activity android:name=".Activity.LfrActivity" />
+        <activity android:name=".Activity.QuadcopterActivity" />
+        <activity android:name=".Activity.TransporterActivity" />
+        <activity android:name=".Activity.RoboraceActivity" />
+        <activity android:name=".Activity.RobowarActivity" />
+        <activity android:name=".Activity.RoboSoccerActivity" />
+        <activity android:name=".Activity.QuestActivity" />
+        <activity android:name=".Activity.WrangleActivity" />
+        <activity android:name=".Activity.RostrumActivity" />
+        <activity android:name=".Activity.SifActivity"></activity>
     </application>
 
 </manifest>

@@ -7,4 +7,5 @@
     <color name="secondaryText">#727272</color>
     <color name="dividerColor">#B6B6B6</color>
     <color name="textColor">#FFFFFF</color>
+    <color name="extra">#607D8B</color>
 </resources>
