@@ -923,4 +923,15 @@ Mayuri Agrawal: +91-9414048295\n
 sif.plinth@gmail.com\n
         </item>
     </string-array>
+    
+    <string-array name="workshop_heading">
+        <item>Vehicle Design and Dynamics</item>
+        <item>Web O Master</item>
+        <item>Touch and Augmented Realities</item>
+    </string-array>
+    <string-array name="workshop_des">
+        <item>Do vehicles excite you? Learn principles, simulation, design and manufacturing a prototype of an automobile!\n</item>
+        <item>Learn and master the secrets of web technologies, Content Management and Search Engine Optimization\n</item>
+        <item>Learn about sixth sense technologies on which Microsoft,Google,Intel and many more.</item>
+    </string-array>
 </resources>
