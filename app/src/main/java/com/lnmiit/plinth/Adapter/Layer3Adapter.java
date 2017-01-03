@@ -58,6 +58,7 @@ public class Layer3Adapter extends PagerAdapter {
             bt.setVisibility(View.GONE);
             payment.setVisibility(View.GONE);
         }
+        String temp = list.get(position).getHeading();
         heading.setText(list.get(position).getHeading());
         description.setText(list.get(position).getDes());
         container.addView(view);

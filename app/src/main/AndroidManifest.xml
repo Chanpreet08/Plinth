@@ -70,7 +70,10 @@
         <activity android:name=".Activity.QuestActivity" />
         <activity android:name=".Activity.WrangleActivity" />
         <activity android:name=".Activity.RostrumActivity" />
-        <activity android:name=".Activity.SifActivity"></activity>
+        <activity android:name=".Activity.SifActivity" />
+        <activity android:name=".Activity.VehicleActivity" />
+        <activity android:name=".Activity.WebomasterActivity" />
+        <activity android:name=".Activity.AugmentedActivity"></activity>
     </application>
 
 </manifest>

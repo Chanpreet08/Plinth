@@ -10,11 +10,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.lnmiit.plinth.Activity.AstronomyActivity;
+import com.lnmiit.plinth.Activity.AugmentedActivity;
 import com.lnmiit.plinth.Activity.CodingActivity;
 import com.lnmiit.plinth.Activity.LiteratureActivity;
 import com.lnmiit.plinth.Activity.ManagementActivity;
 import com.lnmiit.plinth.Activity.QuizzingActivity;
 import com.lnmiit.plinth.Activity.RoboticsActivity;
+import com.lnmiit.plinth.Activity.VehicleActivity;
+import com.lnmiit.plinth.Activity.WebomasterActivity;
 import com.lnmiit.plinth.Model.Data;
 import com.lnmiit.plinth.R;
 
@@ -42,8 +45,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        final int pos = position;
-
+        final String temp = list.get(position).getTitles();
         holder.image.setImageResource(list.get(position).getImages());
         holder.title.setText(list.get(position).getTitles());
         holder.description.setText(list.get(position).getDescription());
@@ -51,36 +53,51 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
             @Override
             public void onClick(View v) {
                 Intent cardIntent;
-                switch(pos)
+                if(temp.equals("Astronomy"))
                 {
-                    case 0:
-                        cardIntent = new Intent(context,AstronomyActivity.class);
-                        context.startActivity(cardIntent);
-                        break;
-                    case 1:
-                        cardIntent = new Intent(context,CodingActivity.class);
-                        context.startActivity(cardIntent);
-                        break;
-                    case 2:
-                        cardIntent = new Intent(context,RoboticsActivity.class);
-                        context.startActivity(cardIntent);
-                        break;
-                    case 3:
-                        cardIntent = new Intent(context,QuizzingActivity.class);
-                        context.startActivity(cardIntent);
-                        break;
-                    case 4:
-                        cardIntent = new Intent(context,LiteratureActivity.class);
-                        context.startActivity(cardIntent);
-                        break;
-                    case 5:
-                        cardIntent = new Intent(context,ManagementActivity.class);
-                        context.startActivity(cardIntent);
-                        break;
-                    default:
-                        break;
+                    cardIntent = new Intent(context,AstronomyActivity.class);
+                    context.startActivity(cardIntent);
                 }
-
+                if(temp.equals("Coding"))
+                {
+                    cardIntent = new Intent(context,CodingActivity.class);
+                    context.startActivity(cardIntent);
+                }
+                if(temp.equals("Robotics"))
+                {
+                    cardIntent = new Intent(context,RoboticsActivity.class);
+                    context.startActivity(cardIntent);
+                }
+                if(temp.equals("Quizzing"))
+                {
+                    cardIntent = new Intent(context,QuizzingActivity.class);
+                    context.startActivity(cardIntent);
+                }
+                if(temp.equals("Literature"))
+                {
+                    cardIntent = new Intent(context,LiteratureActivity.class);
+                    context.startActivity(cardIntent);
+                }
+                if(temp.equals("Management"))
+                {
+                    cardIntent = new Intent(context,ManagementActivity.class);
+                    context.startActivity(cardIntent);
+                }
+                if(temp.equals("Vehicle Design and Dynamics"))
+                {
+                    cardIntent = new Intent(context,VehicleActivity.class);
+                    context.startActivity(cardIntent);
+                }
+                if(temp.equals("Web O Master"))
+                {
+                    cardIntent = new Intent(context,WebomasterActivity.class);
+                    context.startActivity(cardIntent);
+                }
+                if(temp.equals("Touch and Augmented Realities"))
+                {
+                    cardIntent = new Intent(context,AugmentedActivity.class);
+                    context.startActivity(cardIntent);
+                }
             }
         });
     }
