@@ -21,7 +21,7 @@ public class LiteratureActivity extends AppCompatActivity {
     private ArrayList<Data> list = new ArrayList<>();
     private String title[];
     private String description[];
-    private int images[]={R.drawable.ic_astro_hunt,R.drawable.ic_rostrum};
+    private int images[]={R.drawable.ic_wrangle,R.drawable.ic_rostrum};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
