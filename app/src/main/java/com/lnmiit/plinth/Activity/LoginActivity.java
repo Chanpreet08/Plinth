@@ -1,5 +1,6 @@
 package com.lnmiit.plinth.Activity;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.annotation.NonNull;
@@ -19,6 +20,7 @@ import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.Profile;
+import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.Auth;
@@ -36,6 +38,7 @@ import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.common.api.Status;
 import com.lnmiit.plinth.Model.User;
 import com.lnmiit.plinth.R;
+import com.lnmiit.plinth.Tool.Tools;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -56,6 +59,23 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     private String emailId="";
     private String phone="";
     private AccessTokenTracker accesstokentracker;
+    private String google_token;
+    private String facebook_token;
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (google_token != null)
+        {
+            signOut();
+        }
+        if(facebook_token!=null)
+        {
+
+            LoginManager.getInstance().logOut();
+        }
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,14 +86,15 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoMainActivity();
+                Intent mainIntent = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(mainIntent);
             }
         });
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(getString(R.string.server_client_id)).requestEmail().build();
         googleApiClient = new GoogleApiClient.Builder(this).enableAutoManage(this, this).addApi(Auth.GOOGLE_SIGN_IN_API, gso).build();
         callbackManager = CallbackManager.Factory.create();
         signInButton = (SignInButton) findViewById(R.id.google_login);
-        signInButton.setSize(SignInButton.SIZE_STANDARD);
+        signInButton.setSize(SignInButton.SIZE_WIDE);
         signInButton.setScopes(gso.getScopeArray());
         loginButton.setReadPermissions(Arrays.asList(
                 "public_profile", "email", "user_birthday", "user_friends"));
@@ -87,7 +108,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-                String token = loginResult.getAccessToken().getToken();
+                facebook_token= loginResult.getAccessToken().getToken();
                 GraphRequest request = GraphRequest.newMeRequest(
                         loginResult.getAccessToken(),
                         new GraphRequest.GraphJSONObjectCallback() {
@@ -104,7 +125,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                                     user.setUsername(username);
                                     user.setEmailId(emailId);
                                     SharedPreferences.putSharedPrefeneces(getApplicationContext(),user);
-                                    gotoMainActivity();
+                                    gotoCompleteLogin();
                                     finish();
                                 } catch (JSONException e) {
                                     e.printStackTrace();
@@ -130,8 +151,8 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         });
     }
 
-    private void gotoMainActivity(){
-        Intent mainIntent = new Intent(this, MainActivity.class);
+    private void gotoCompleteLogin(){
+        Intent mainIntent = new Intent(this, CompleteLoginActivity.class);
         startActivity(mainIntent);
     }
     public void getIdToken() {
@@ -184,15 +205,15 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
             if (result.isSuccess()) {
                 GoogleSignInAccount acct = result.getSignInAccount();
-                String idToken = acct.getIdToken();
+                google_token = acct.getIdToken();
                 username = acct.getDisplayName();
                 emailId = acct.getEmail();
                 User user = new User();
                 user.setUsername(username);
                 user.setEmailId(emailId);
                 SharedPreferences.putSharedPrefeneces(getApplicationContext(),user);
-                Log.d(TAG, "idToken:" + idToken);
-                gotoMainActivity();
+                Log.d(TAG, "idToken:" + google_token);
+                gotoCompleteLogin();
                 finish();
                 //text.setText(idToken);
                 //updateUI(true);

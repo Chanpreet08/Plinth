@@ -23,9 +23,14 @@ import com.lnmiit.plinth.R;
 public class ProfileFragment extends Fragment {
 
 
-    private ImageView logout;
+    private Button logout;
     private TextView email;
-    private TextView username;
+    private TextView name;
+    private TextView phone;
+    private TextView city;
+    private TextView college;
+    private String gender="";
+    private ImageView gen;
     public ProfileFragment() {
         // Required empty public constructor
     }
@@ -35,13 +40,28 @@ public class ProfileFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v= inflater.inflate(R.layout.fragment_profile, container, false);
-        logout= (ImageView) v.findViewById(R.id.profile_logout);
+        logout= (Button) v.findViewById(R.id.profile_logout);
         email =(TextView) v.findViewById(R.id.profile_email);
-        username = (TextView) v.findViewById(R.id.profile_username);
+        name = (TextView) v.findViewById(R.id.profile_name);
+        phone = (TextView) v.findViewById(R.id.profile_phone);
+        city = (TextView) v.findViewById(R.id.profile_city);
+        college = (TextView) v.findViewById(R.id.profile_college);
+        gen = (ImageView) v.findViewById(R.id.profile_gender);
         User user ;
         user =SharedPreferences.getSharedInfo(getActivity().getApplicationContext());
         email.setText(user.getEmailId());
-        username.setText(user.getUsername());
+        name.setText(user.getUsername());
+        phone.setText(user.getPhone());
+        city.setText(user.getCity());
+        college.setText(user.getCollege());
+        gender= user.getGender();
+        if(gender=="Female")
+        {
+            gen.setImageResource(R.drawable.ic_female);
+        }
+        else {
+            gen.setImageResource(R.drawable.male);
+        }
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,6 +69,8 @@ public class ProfileFragment extends Fragment {
                 u.setEmailId("");
                 u.setUsername("");
                 u.setPhone("");
+                u.setCity("");
+                u.setCollege("");
                 SharedPreferences.putSharedPrefeneces(getActivity().getApplicationContext(), u);
                 Intent i = new Intent(getActivity().getApplicationContext(), LoginActivity.class);
                 startActivity(i);

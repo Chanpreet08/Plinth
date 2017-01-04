@@ -73,7 +73,8 @@
         <activity android:name=".Activity.SifActivity" />
         <activity android:name=".Activity.VehicleActivity" />
         <activity android:name=".Activity.WebomasterActivity" />
-        <activity android:name=".Activity.AugmentedActivity"></activity>
+        <activity android:name=".Activity.AugmentedActivity" />
+        <activity android:name=".Activity.CompleteLoginActivity"></activity>
     </application>
 
 </manifest>

@@ -21,6 +21,11 @@ public class SharedPreferences {
         editor.putString("username",user.getUsername());
         editor.putString("emailid",user.getEmailId());
         editor.putString("phone",user.getPhone());
+        editor.putString("gender",user.getGender());
+        editor.putString("college",user.getCollege());
+        editor.putString("city",user.getCity());
+        editor.putString("accommodation",user.getAccommodation());
+        editor.putInt("year",user.getYear());
         editor.commit();
         return true;
     }
@@ -31,6 +36,11 @@ public class SharedPreferences {
         user.setUsername(sharedPreferences.getString("username",null));
         user.setEmailId(sharedPreferences.getString("emailid",null));
         user.setPhone(sharedPreferences.getString("phone",null));
+        user.setGender(sharedPreferences.getString("gender",null));
+        user.setCollege(sharedPreferences.getString("college",null));
+        user.setCity(sharedPreferences.getString("city",null));
+        user.setAccommodation(sharedPreferences.getString("accommodation",null));
+        user.setYear(sharedPreferences.getInt("year",0));
         return user;
     }
 }
