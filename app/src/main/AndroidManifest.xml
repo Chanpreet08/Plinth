@@ -74,7 +74,8 @@
         <activity android:name=".Activity.VehicleActivity" />
         <activity android:name=".Activity.WebomasterActivity" />
         <activity android:name=".Activity.AugmentedActivity" />
-        <activity android:name=".Activity.CompleteLoginActivity"></activity>
+        <activity android:name=".Activity.CompleteLoginActivity" />
+        <activity android:name=".Activity.PhotoGraphyWorkshopActivity"></activity>
     </application>
 
 </manifest>

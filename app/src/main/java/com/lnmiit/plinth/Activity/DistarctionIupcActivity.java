@@ -25,6 +25,7 @@ public class DistarctionIupcActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_distarction_iupc);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Distraction IUPC");
         viewPager = (ViewPager) findViewById(R.id.pager_distraction);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_distraction);
         heading = getResources().getStringArray(R.array.distraction_heading);

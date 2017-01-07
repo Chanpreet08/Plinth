@@ -26,6 +26,7 @@ public class LfrActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lfr);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("LFR");
         viewPager = (ViewPager) findViewById(R.id.pager_lfr);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_lfr);
         heading = getResources().getStringArray(R.array.lfr_heading);

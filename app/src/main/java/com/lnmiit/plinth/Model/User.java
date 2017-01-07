@@ -1,19 +1,69 @@
 package com.lnmiit.plinth.Model;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by chanpreet on 30/12/16.
  */
 
 public class User {
 
+    @SerializedName("name")
     private String username;
+    @SerializedName("email")
     private String emailId;
+    @SerializedName("phoneNumber")
     private String phone;
+    @SerializedName("college")
     private String college;
+    @SerializedName("year")
     private int year;
+    @SerializedName("city")
     private String city;
+    @SerializedName("accommodation")
     private String accommodation;
+    @SerializedName("valid")
+    private String valid;
+    @SerializedName("gender")
     private String gender;
+    @SerializedName("events")
+    private String events;
+    @SerializedName("paidEvents")
+    private String paidEvents;
+    @SerializedName("key")
+    private String key;
+
+    public String getValid() {
+        return valid;
+    }
+
+    public void setValid(String valid) {
+        this.valid = valid;
+    }
+
+    public String getEvents() {
+        return events;
+    }
+
+    public void setEvents(String events) {
+        this.events = events;
+    }
+
+    public String getPaidEvents() {
+        return paidEvents;
+    }
+
+    public void setPaidEvents(String paidEvents) {
+        this.paidEvents = paidEvents;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
 
     public String getCollege() {
         return college;

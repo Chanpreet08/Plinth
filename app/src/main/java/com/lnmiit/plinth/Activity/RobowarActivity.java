@@ -26,6 +26,7 @@ public class RobowarActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_robowar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Robowar");
         viewPager = (ViewPager) findViewById(R.id.pager_robowar);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_robowar);
         heading = getResources().getStringArray(R.array.robowar_heading);

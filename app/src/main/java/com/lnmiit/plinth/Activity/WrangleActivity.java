@@ -26,6 +26,7 @@ public class WrangleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wrangle);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Wrangle");
         viewPager = (ViewPager) findViewById(R.id.pager_wrangle);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_wrangle);
         heading = getResources().getStringArray(R.array.armageddon_heading);

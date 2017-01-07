@@ -15,33 +15,60 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="30dp"
+            android:layout_margin="20dp"
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/image"
+                android:id="@+id/lecture_image"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"/>
 
             <TextView
-                android:id="@+id/title"
+                android:id="@+id/lecture_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif"
                 android:text="Title"
                 android:textSize="18dp" />
 
             <TextView
-                android:id="@+id/description"
+                android:id="@+id/lecture_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_marginTop="5dp"
                 android:text="description"
                 android:textSize="14dp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+              <android.support.v7.widget.AppCompatButton
+                  android:id="@+id/facebook_link"
+                  android:layout_width="24dp"
+                  android:layout_height="24dp"
+                  android:layout_margin="8dp"
+                  android:background="@drawable/ic_facebook_logo"/>
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/wikipedia_link"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/wikipedia_logo"/>
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/twitter_link"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_twitter_logo_silhouette"/>
+            </LinearLayout>
         </LinearLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>

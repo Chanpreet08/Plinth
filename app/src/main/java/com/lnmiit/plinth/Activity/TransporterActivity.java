@@ -26,6 +26,7 @@ public class TransporterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transporter);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Transporter");
         viewPager = (ViewPager) findViewById(R.id.pager_transporter);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_transporter);
         heading = getResources().getStringArray(R.array.transporter_heading);

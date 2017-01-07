@@ -25,6 +25,7 @@ public class IupcActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iupc);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("IUPC");
         viewPager = (ViewPager) findViewById(R.id.pager_iupc);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_iupc);
         heading = getResources().getStringArray(R.array.iupc_heading);

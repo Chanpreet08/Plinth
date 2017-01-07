@@ -26,6 +26,7 @@ public class ArmageddonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_armageddon);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Armageddon");
         viewPager = (ViewPager) findViewById(R.id.pager_armageddon);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_armageddon);
         heading = getResources().getStringArray(R.array.armageddon_heading);

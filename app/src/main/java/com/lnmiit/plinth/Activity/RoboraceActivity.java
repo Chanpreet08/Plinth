@@ -26,6 +26,7 @@ public class RoboraceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_roborace);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("RoboRace");
         viewPager = (ViewPager) findViewById(R.id.pager_roborace);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_roborace);
         heading = getResources().getStringArray(R.array.roborace_heading);

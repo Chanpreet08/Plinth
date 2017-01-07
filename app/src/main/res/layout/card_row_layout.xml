@@ -31,6 +31,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif"
+                android:gravity="center"
                 android:text="Title"
                 android:textSize="18dp" />
 
@@ -40,7 +41,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
-                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
                 android:text="description"
                 android:textSize="14dp" />
         </LinearLayout>

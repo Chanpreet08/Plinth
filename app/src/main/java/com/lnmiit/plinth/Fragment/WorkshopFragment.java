@@ -27,7 +27,7 @@ public class WorkshopFragment extends Fragment {
     private LinearLayoutManager linearLayoutManager;
     private String[] title;
     private String[] description;
-    private int images[]={R.drawable.ic_vehicle,R.drawable.ic_webomaster,R.drawable.augmented};
+    private int images[]={R.drawable.ic_photography,R.drawable.ic_vehicle,R.drawable.ic_webomaster,R.drawable.augmented};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -1,5 +1,6 @@
 package com.lnmiit.plinth.Activity;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
@@ -16,6 +17,15 @@ import android.widget.Toast;
 
 import com.lnmiit.plinth.Model.User;
 import com.lnmiit.plinth.R;
+import com.lnmiit.plinth.Tool.Tools;
+import com.lnmiit.plinth.response.registerResponse;
+import com.lnmiit.plinth.rest.ApiClient;
+import com.lnmiit.plinth.rest.ApiInterface;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class CompleteLoginActivity extends AppCompatActivity {
 
     private EditText name;
@@ -29,11 +39,13 @@ public class CompleteLoginActivity extends AppCompatActivity {
     private int years;
     private String acc;
     private TextInputLayout inputName,inputEmail,inputphone,inputcity,inputclg;
+    ProgressDialog pd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_complete_login);
+        getSupportActionBar().setTitle("Register");
         name = (EditText) findViewById(R.id.name);
         email = (EditText) findViewById(R.id.email);
         phone = (EditText) findViewById(R.id.phone);
@@ -48,6 +60,7 @@ public class CompleteLoginActivity extends AppCompatActivity {
          inputphone = (TextInputLayout) findViewById(R.id.input_phone);
          inputcity = (TextInputLayout) findViewById(R.id.input_city);
          inputclg = (TextInputLayout) findViewById(R.id.input_clg);
+        pd= Tools.getProgressDialog(this);
         final User user =SharedPreferences.getSharedInfo(this);
         name.setText(user.getUsername());
         email.setText(user.getEmailId());
@@ -56,11 +69,11 @@ public class CompleteLoginActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 if(checkedId==R.id.male)
                 {
-                    genders = "Male";
+                    genders = "male";
                 }
                 if(checkedId==R.id.female)
                 {
-                    genders = "Female";
+                    genders = "female";
                 }
             }
         });
@@ -90,7 +103,7 @@ public class CompleteLoginActivity extends AppCompatActivity {
                 }
                 if(checkedId==R.id.na)
                 {
-                    years=6;
+                    years=0;
                 }
             }
         });
@@ -122,9 +135,35 @@ public class CompleteLoginActivity extends AppCompatActivity {
                 user.setCollege(institute.getText().toString());
                 user.setGender(genders);
                 user.setYear(years);
-                SharedPreferences.putSharedPrefeneces(getApplicationContext(),user);
-                finish();
-                gotoMainActivity();
+                user.setValid("");
+                user.setEvents("");
+                user.setPaidEvents("");
+                user.setKey("pRZy84s8s3^Y'bc");
+                pd.show();
+                ApiInterface apiService = ApiClient.getRetrofitClient().create(ApiInterface.class);
+                Call<registerResponse> call = apiService.sendCredentials(user);
+                call.enqueue(new Callback<registerResponse>() {
+
+                    @Override
+                    public void onResponse(Call<registerResponse> call, Response<registerResponse> response) {
+                        pd.dismiss();
+                        if(response.isSuccessful())
+                        {
+                            if(response.body().getMessage().equals("success")) {
+                                SharedPreferences.putSharedPrefeneces(getApplicationContext(), user);
+                                finish();
+                                gotoMainActivity();
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<registerResponse> call, Throwable t) {
+                        pd.dismiss();
+                        Toast.makeText(CompleteLoginActivity.this,"Connection Failed!!",Toast.LENGTH_SHORT).show();
+                    }
+                });
+
 
             }
         });

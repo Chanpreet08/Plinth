@@ -82,15 +82,17 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.home) {
             fragment = new HomeFragment();
-
+            getSupportActionBar().setTitle("Plinth");
         } else if (id == R.id.contact_us) {
             fragment = new ContactUsFragment();
+            getSupportActionBar().setTitle("Contact Us");
         } else if (id == R.id.share) {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
             startActivity(Intent.createChooser(shareIntent,"Share With"));
         } else if (id == R.id.about_us) {
             fragment =  new AboutUsFragment();
+            getSupportActionBar().setTitle("About Us");
         } else if (id == R.id.developers) {
 
         }

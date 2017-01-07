@@ -26,6 +26,7 @@ public class RoboSoccerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_robo_soccer);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("RoboSoccer");
         viewPager = (ViewPager) findViewById(R.id.pager_robosoccer);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_robosoccer);
         heading = getResources().getStringArray(R.array.robosoccer_heading);

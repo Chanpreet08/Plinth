@@ -26,6 +26,7 @@ public class AstroHuntActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_astro_hunt);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Astro Hunt");
         viewPager = (ViewPager) findViewById(R.id.pager_astrohunt);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_astrohunt);
         heading = getResources().getStringArray(R.array.astrohunt_heading);

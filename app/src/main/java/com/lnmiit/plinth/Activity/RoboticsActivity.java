@@ -27,6 +27,7 @@ public class RoboticsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_robotics);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Robotics");
         recyclerView = (RecyclerView) findViewById(R.id.robotics_recycler);
         title = getResources().getStringArray(R.array.robotics);
         description = getResources().getStringArray(R.array.robotics_description);

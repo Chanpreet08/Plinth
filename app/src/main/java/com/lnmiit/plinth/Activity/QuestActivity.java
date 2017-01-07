@@ -26,6 +26,7 @@ public class QuestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quest);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Quest");
         viewPager = (ViewPager) findViewById(R.id.pager_quest);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_quest);
         heading = getResources().getStringArray(R.array.quest_heading);

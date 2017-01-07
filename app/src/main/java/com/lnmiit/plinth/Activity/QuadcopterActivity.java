@@ -26,6 +26,7 @@ public class QuadcopterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quadcopter);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Quadcopter");
         viewPager = (ViewPager) findViewById(R.id.pager_quadcopter);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_quadcopter);
         heading = getResources().getStringArray(R.array.quadcopter_heading);

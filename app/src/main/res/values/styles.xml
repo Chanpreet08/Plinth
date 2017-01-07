@@ -24,8 +24,4 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
-    <style name="MyEditText" parent="Theme.AppCompat.Light">
-        <item name="colorControlNormal">@color/extra</item>
-        <item name="colorControlActivated">@color/colorAccent</item>
-    </style>
 </resources>

@@ -14,6 +14,7 @@ import com.lnmiit.plinth.Activity.AugmentedActivity;
 import com.lnmiit.plinth.Activity.CodingActivity;
 import com.lnmiit.plinth.Activity.LiteratureActivity;
 import com.lnmiit.plinth.Activity.ManagementActivity;
+import com.lnmiit.plinth.Activity.PhotoGraphyWorkshopActivity;
 import com.lnmiit.plinth.Activity.QuizzingActivity;
 import com.lnmiit.plinth.Activity.RoboticsActivity;
 import com.lnmiit.plinth.Activity.VehicleActivity;
@@ -81,6 +82,11 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
                 if(temp.equals("Management"))
                 {
                     cardIntent = new Intent(context,ManagementActivity.class);
+                    context.startActivity(cardIntent);
+                }
+                if(temp.equals("Photography Workshop"))
+                {
+                    cardIntent = new Intent(context, PhotoGraphyWorkshopActivity.class);
                     context.startActivity(cardIntent);
                 }
                 if(temp.equals("Vehicle Design and Dynamics"))

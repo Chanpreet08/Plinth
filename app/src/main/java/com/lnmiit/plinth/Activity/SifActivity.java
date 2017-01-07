@@ -26,6 +26,7 @@ public class SifActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sif);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Sif");
         viewPager = (ViewPager) findViewById(R.id.pager_sif);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_sif);
         heading = getResources().getStringArray(R.array.sif_heading);
