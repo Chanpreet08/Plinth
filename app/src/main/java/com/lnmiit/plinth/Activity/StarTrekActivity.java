@@ -31,7 +31,7 @@ public class StarTrekActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_startrek);
         heading = getResources().getStringArray(R.array.startrek_heading);
         des = getResources().getStringArray(R.array.startrek_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"startrek");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

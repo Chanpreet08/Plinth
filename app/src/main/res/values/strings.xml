@@ -32,9 +32,9 @@
         \nLearn and take away with you a truly enriching experience.\n
     </string>
 
-    <string name="facebook_app_id">1656250501335022</string>
-    <string name="fb_login_protocol_scheme">fb1656250501335022</string>
-    <string name="server_client_id">648966113918-ur406undh8rd0nh35o1ulvrhpl9ftg6t.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">168845313579478</string>
+    <string name="fb_login_protocol_scheme">fb168845313579478</string>
+    <string name="server_client_id">870193934250-9udq9itfdrm178eqtohvf3b18e4d23m5.apps.googleusercontent.com</string>
     <string name="login_text">Register yourself for different competitions through this portal to know further details and proceedings of PLINTH17. Moreover if you register through this platform , you would be able to get exclusive coupons and offers.</string>
     <string-array name="competitions">
         <item>Astronomy</item>
@@ -925,29 +925,76 @@ sif.plinth@gmail.com\n
     </string-array>
 
     <string-array name="workshop_heading">
+
         <item>Photography Workshop</item>
+        <item>3D Printer Workshop</item>
         <item>Vehicle Design and Dynamics</item>
         <item>Web O Master</item>
         <item>Touch and Augmented Realities</item>
     </string-array>
     <string-array name="workshop_des">
         <item>Learn and master the skills of photography,by india\s one of the most famous photographer,"Auditya Venkatesh"</item>
+        <item>Learn about the materials, designing of CAD models, working of a 3D Printer.</item>
         <item>Do vehicles excite you? Learn principles, simulation, design and manufacturing a prototype of an automobile!\n</item>
         <item>Learn and master the secrets of web technologies, Content Management and Search Engine Optimization\n</item>
         <item>Learn about sixth sense technologies on which Microsoft,Google,Intel and many more.</item>
     </string-array>
 
     <string-array name="lecture_title">
-        <item>Dr. V.A. Shiva Ayyadurai</item>
+        <item>Dr.V.A.Shiva Ayyadurai</item>
         <item>Balaji Vishwanathan </item>
         <item>Dr. Sangram Ganguly </item>
         <item>Shubhranshu Choudhary </item>
     </string-array>
     <string-array name="lecture_des">
-        <item>The Inventor of Email and Chairman/C.E.O., CytoSolve, Inc.</item>
+        <item>The Inventor of Email.</item>
         <item>VP Product, Invento</item>
         <item>Senior Research Scientist, NASA</item>
         <item>Award Winning Journalist</item>
+    </string-array>
+
+    <string-array name="printer_heading">
+        <item>About Workshop</item>
+        <item>Highlights</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="printer_des">
+        <item>
+            3D Printing is an Additive Manufacturing technique that creates a physical object from a virtual 3D CAD model by depositing successive layers of material. They work like the traditional inkjet printers, but instead of ink, a 3D printer deposits desired material to manufacture an object from its digital format. 3D printing and rapid prototyping, in general, are widely claimed to have revolutionized not only the manufacturing industry but also many other walks of life like medicine, aerospace and autom -otive industry. This program on 3D Printing helps the participants understand the design, functioning and operation of a basic 3D Printer.\n
+
+        </item>
+        <item>
+            1.Learn about the materials, designing of CAD models, working of a 3D Printer.\n
+            2.Understand how to build and calibrate a 3D printer.\n
+            3.Understand the basics of G code generation.\n
+            4.The participants will get 30 printed models that they design.\n
+            5.Certificate of Completion with Distinction (for top performers) and Certificate of Completion\n
+            \nCourse Structure\n
+            Introductory lecture on 3D printer and Rapid Prototyping:\n
+            1.Introduction to Rapid prototype\n
+            2.Introduction to different types of 3D printers\n
+            3.Introduction to RepRap and Arduino electronic controller\n
+            4.Materials used for printing\n
+            STL files\n
+            1.Concepts of solidworks software\n
+            2.Design of Assembly\n
+            Introduction to G Code\n
+            Presentation of 3D Printer assembly\n
+            Demonstration of 30 Printing\n
+            \n Kit Content\n
+            Printer would be provided during the workshop but would be taken back after the workshop. This is being done to reduce the cost of the workshop and make it affordable for students. For purchase the printer kit. you can contact us personally.\n
+
+        </item>
+        <item>
+            Fee : INR. 250/- per person(Early Bird)\n
+            19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Accommodation Charges are 200/- per day (onsite)\n
+            \nFor Any Queries Contact\n
+
+            Romit Jain : +91-9549037612 | romit.73@gmail.com\n
+            Vipul Behl : +91-9468590302 | vbehl03@gmail.com\n
+        </item>
     </string-array>
     <string-array name="photography_heading">
         <item>About Workshop</item>

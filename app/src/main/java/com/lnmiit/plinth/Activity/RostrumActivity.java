@@ -31,7 +31,7 @@ public class RostrumActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_rostrum);
         heading = getResources().getStringArray(R.array.rostrum_heading);
         des = getResources().getStringArray(R.array.rostrum_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"rostrum");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

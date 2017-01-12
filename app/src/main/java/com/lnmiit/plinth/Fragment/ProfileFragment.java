@@ -2,6 +2,7 @@ package com.lnmiit.plinth.Fragment;
 
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.media.Image;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -30,6 +31,7 @@ public class ProfileFragment extends Fragment {
     private TextView city;
     private TextView college;
     private String gender="";
+    private String temp="";
     private ImageView gen;
     public ProfileFragment() {
         // Required empty public constructor
@@ -47,21 +49,33 @@ public class ProfileFragment extends Fragment {
         city = (TextView) v.findViewById(R.id.profile_city);
         college = (TextView) v.findViewById(R.id.profile_college);
         gen = (ImageView) v.findViewById(R.id.profile_gender);
-        User user ;
+        User user =new User();
         user =SharedPreferences.getSharedInfo(getActivity().getApplicationContext());
-        email.setText(user.getEmailId());
-        name.setText(user.getUsername());
-        phone.setText(user.getPhone());
-        city.setText(user.getCity());
-        college.setText(user.getCollege());
-        gender= user.getGender();
-        if(gender=="Female")
+        temp = user.getUsername();
+        if(temp==null || temp.equals(""))
         {
-            gen.setImageResource(R.drawable.ic_female);
+            name.setText("Not A Registered User");
+            name.setTextColor(Color.RED);
+            gen.setImageResource(R.drawable.male);
+            logout.setText("Register");
         }
         else {
-            gen.setImageResource(R.drawable.male);
+            email.setText(user.getEmailId());
+            name.setText(user.getUsername());
+            phone.setText(user.getPhone());
+            city.setText(user.getCity());
+            college.setText(user.getCollege());
+            gender = user.getGender();
+            if(gender.equals("female"))
+            {
+                gen.setImageResource(R.drawable.ic_female);
+            }
+            else {
+                gen.setImageResource(R.drawable.male);
+            }
         }
+
+
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

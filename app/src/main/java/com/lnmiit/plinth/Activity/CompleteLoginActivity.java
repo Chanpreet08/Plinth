@@ -38,6 +38,9 @@ public class CompleteLoginActivity extends AppCompatActivity {
     private String genders;
     private int years;
     private String acc;
+    private String login;
+    private String token;
+    private String id;
     private TextInputLayout inputName,inputEmail,inputphone,inputcity,inputclg;
     ProgressDialog pd;
 
@@ -60,6 +63,10 @@ public class CompleteLoginActivity extends AppCompatActivity {
          inputphone = (TextInputLayout) findViewById(R.id.input_phone);
          inputcity = (TextInputLayout) findViewById(R.id.input_city);
          inputclg = (TextInputLayout) findViewById(R.id.input_clg);
+        Bundle bundle = getIntent().getExtras();
+        login = bundle.getString("login");
+        token = bundle.getString("token");
+        id = bundle.getString("userid");
         pd= Tools.getProgressDialog(this);
         final User user =SharedPreferences.getSharedInfo(this);
         name.setText(user.getUsername());
@@ -138,36 +145,67 @@ public class CompleteLoginActivity extends AppCompatActivity {
                 user.setValid("");
                 user.setEvents("");
                 user.setPaidEvents("");
-                user.setKey("pRZy84s8s3^Y'bc");
-                pd.show();
-                ApiInterface apiService = ApiClient.getRetrofitClient().create(ApiInterface.class);
-                Call<registerResponse> call = apiService.sendCredentials(user);
-                call.enqueue(new Callback<registerResponse>() {
+                user.setToken(token);
+                user.setLoginId(id);
+                if(login.equals("facebook")) {
+                    pd.show();
+                    ApiInterface apiService = ApiClient.getRetrofitClient().create(ApiInterface.class);
+                    Call<registerResponse> call = apiService.sendCredentialsFacebook(user);
+                    call.enqueue(new Callback<registerResponse>() {
 
-                    @Override
-                    public void onResponse(Call<registerResponse> call, Response<registerResponse> response) {
-                        pd.dismiss();
-                        if(response.isSuccessful())
-                        {
-                            if(response.body().getMessage().equals("success")) {
+                        @Override
+                        public void onResponse(Call<registerResponse> call, Response<registerResponse> response) {
+                            pd.dismiss();
+                            if (response.isSuccessful()) {
+                                //if (response.body().getMessage().equals("true")) {
+                                    SharedPreferences.putSharedPrefeneces(getApplicationContext(), user);
+                                    finish();
+                                    gotoMainActivity();
+
+                            }
+                        }
+
+                        @Override
+                        public void onFailure(Call<registerResponse> call, Throwable t) {
+                            pd.dismiss();
+                            Toast.makeText(CompleteLoginActivity.this, "Connection Failed!!", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                }
+
+                if(login.equals("google"))
+                {
+                    pd.show();
+                    ApiInterface apiService = ApiClient.getRetrofitClient().create(ApiInterface.class);
+                    Call<registerResponse> call = apiService.sendCredentialsGoogle(user);
+                    call.enqueue(new Callback<registerResponse>() {
+
+                        @Override
+                        public void onResponse(Call<registerResponse> call, Response<registerResponse> response) {
+                            pd.dismiss();
+                            if (response.isSuccessful()) {
+                                //if (response.body().getMessage().equals("true")) {
                                 SharedPreferences.putSharedPrefeneces(getApplicationContext(), user);
                                 finish();
                                 gotoMainActivity();
+
                             }
                         }
-                    }
 
-                    @Override
-                    public void onFailure(Call<registerResponse> call, Throwable t) {
-                        pd.dismiss();
-                        Toast.makeText(CompleteLoginActivity.this,"Connection Failed!!",Toast.LENGTH_SHORT).show();
-                    }
-                });
+                        @Override
+                        public void onFailure(Call<registerResponse> call, Throwable t) {
+                            pd.dismiss();
+                            Toast.makeText(CompleteLoginActivity.this, "Connection Failed!!", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                }
 
 
             }
         });
+
     }
+
 
     private void gotoMainActivity() {
         Intent mainIntent = new Intent(this,MainActivity.class);

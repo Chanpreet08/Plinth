@@ -31,7 +31,7 @@ public class RobowarActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_robowar);
         heading = getResources().getStringArray(R.array.robowar_heading);
         des = getResources().getStringArray(R.array.robowar_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"robowar");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

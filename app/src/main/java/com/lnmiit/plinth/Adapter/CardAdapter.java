@@ -15,6 +15,7 @@ import com.lnmiit.plinth.Activity.CodingActivity;
 import com.lnmiit.plinth.Activity.LiteratureActivity;
 import com.lnmiit.plinth.Activity.ManagementActivity;
 import com.lnmiit.plinth.Activity.PhotoGraphyWorkshopActivity;
+import com.lnmiit.plinth.Activity.PrinterActivity;
 import com.lnmiit.plinth.Activity.QuizzingActivity;
 import com.lnmiit.plinth.Activity.RoboticsActivity;
 import com.lnmiit.plinth.Activity.VehicleActivity;
@@ -102,6 +103,11 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
                 if(temp.equals("Touch and Augmented Realities"))
                 {
                     cardIntent = new Intent(context,AugmentedActivity.class);
+                    context.startActivity(cardIntent);
+                }
+                if(temp.equals("3D Printer Workshop"))
+                {
+                    cardIntent = new Intent(context, PrinterActivity.class);
                     context.startActivity(cardIntent);
                 }
             }

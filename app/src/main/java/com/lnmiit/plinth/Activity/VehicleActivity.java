@@ -30,7 +30,7 @@ public class VehicleActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_vehicle);
         heading = getResources().getStringArray(R.array.vehicle_heading);
         des = getResources().getStringArray(R.array.vehicle_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"vehicle");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

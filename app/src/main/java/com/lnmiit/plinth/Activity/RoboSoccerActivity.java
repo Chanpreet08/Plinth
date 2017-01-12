@@ -31,7 +31,7 @@ public class RoboSoccerActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_robosoccer);
         heading = getResources().getStringArray(R.array.robosoccer_heading);
         des = getResources().getStringArray(R.array.roboscoccer_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"robosoccer");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

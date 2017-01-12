@@ -30,7 +30,7 @@ public class DistarctionIupcActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_distraction);
         heading = getResources().getStringArray(R.array.distraction_heading);
         des = getResources().getStringArray(R.array.distraction_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"distraction");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

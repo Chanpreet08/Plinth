@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.lnmiit.plinth.Activity.LiteratureActivity">
     <android.support.v7.widget.RecyclerView
+        android:layout_margin="5dp"
         android:id="@+id/literature_recyceler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

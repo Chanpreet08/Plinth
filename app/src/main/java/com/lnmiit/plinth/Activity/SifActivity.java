@@ -31,7 +31,7 @@ public class SifActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_sif);
         heading = getResources().getStringArray(R.array.sif_heading);
         des = getResources().getStringArray(R.array.sif_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"sif");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

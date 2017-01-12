@@ -31,7 +31,7 @@ public class PhotoGraphyWorkshopActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_photography);
         heading = getResources().getStringArray(R.array.photography_heading);
         des = getResources().getStringArray(R.array.photography_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"photography");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

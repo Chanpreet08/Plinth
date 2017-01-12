@@ -31,7 +31,7 @@ public class QuestActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_quest);
         heading = getResources().getStringArray(R.array.quest_heading);
         des = getResources().getStringArray(R.array.quest_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"quest");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

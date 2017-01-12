@@ -31,7 +31,7 @@ public class WebomasterActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_webomaster);
         heading = getResources().getStringArray(R.array.webomaster_heading);
         des = getResources().getStringArray(R.array.webomaster_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"webomaster");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

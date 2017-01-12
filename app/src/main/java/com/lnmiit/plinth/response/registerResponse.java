@@ -1,17 +1,20 @@
 package com.lnmiit.plinth.response;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by chanpreet on 4/1/17.
  */
 
 public class registerResponse {
-    String message;
+    @SerializedName("msg")
+    String msg;
 
     public String getMessage() {
-        return message;
+        return msg;
     }
 
     public void setMessage(String message) {
-        this.message = message;
+        this.msg = message;
     }
 }

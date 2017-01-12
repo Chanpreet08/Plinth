@@ -9,9 +9,9 @@ import com.google.gson.annotations.SerializedName;
 public class User {
 
     @SerializedName("name")
-    private String username;
+    private String username="";
     @SerializedName("email")
-    private String emailId;
+    private String emailId="";
     @SerializedName("phoneNumber")
     private String phone;
     @SerializedName("college")
@@ -30,8 +30,26 @@ public class User {
     private String events;
     @SerializedName("paidEvents")
     private String paidEvents;
-    @SerializedName("key")
-    private String key;
+    @SerializedName("access_token")
+    private String token;
+    @SerializedName("id")
+    private String loginId;
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public String getLoginId() {
+        return loginId;
+    }
+
+    public void setLoginId(String loginId) {
+        this.loginId = loginId;
+    }
 
     public String getValid() {
         return valid;
@@ -57,13 +75,6 @@ public class User {
         this.paidEvents = paidEvents;
     }
 
-    public String getKey() {
-        return key;
-    }
-
-    public void setKey(String key) {
-        this.key = key;
-    }
 
     public String getCollege() {
         return college;

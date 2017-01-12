@@ -31,7 +31,7 @@ public class WrangleActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_wrangle);
         heading = getResources().getStringArray(R.array.armageddon_heading);
         des = getResources().getStringArray(R.array.armageddon_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"wrangle");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

@@ -31,7 +31,7 @@ public class AugmentedActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_augmented);
         heading = getResources().getStringArray(R.array.augmented_heading);
         des = getResources().getStringArray(R.array.augmented_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"augmented");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

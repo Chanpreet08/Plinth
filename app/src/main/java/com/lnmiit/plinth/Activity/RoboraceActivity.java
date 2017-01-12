@@ -31,7 +31,7 @@ public class RoboraceActivity extends AppCompatActivity {
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_roborace);
         heading = getResources().getStringArray(R.array.roborace_heading);
         des = getResources().getStringArray(R.array.roborace_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"roborace");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

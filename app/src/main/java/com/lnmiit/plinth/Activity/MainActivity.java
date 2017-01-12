@@ -1,6 +1,9 @@
 package com.lnmiit.plinth.Activity;
 
 import android.content.Intent;
+import android.content.res.AssetManager;
+import android.graphics.Typeface;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -13,9 +16,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import com.lnmiit.plinth.Fragment.AboutUsFragment;
 import com.lnmiit.plinth.Fragment.ContactUsFragment;
+import com.lnmiit.plinth.Fragment.DeveloperFragment;
 import com.lnmiit.plinth.Fragment.HomeFragment;
 import com.lnmiit.plinth.R;
 
@@ -23,11 +29,13 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private Fragment fragment;
+    private TextView text;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -83,7 +91,13 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.home) {
             fragment = new HomeFragment();
             getSupportActionBar().setTitle("Plinth");
-        } else if (id == R.id.contact_us) {
+        }else if (id == R.id.schedule) {
+            String url = "https://plinth.in/schedule";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            startActivity(i);
+        }
+        else if (id == R.id.contact_us) {
             fragment = new ContactUsFragment();
             getSupportActionBar().setTitle("Contact Us");
         } else if (id == R.id.share) {
@@ -94,6 +108,8 @@ public class MainActivity extends AppCompatActivity
             fragment =  new AboutUsFragment();
             getSupportActionBar().setTitle("About Us");
         } else if (id == R.id.developers) {
+            getSupportActionBar().setTitle("Developers");
+            fragment = new DeveloperFragment();
 
         }
         if(fragment!=null)
