@@ -50,7 +50,7 @@ public class CompleteRegisterActivity extends AppCompatActivity {
     private String acc;
     private int upperLimit;
     private int lowerLimit;
-    private TextView text;
+    private TextView text1;
     User user;
     Register registerEvent = new Register();
     @Override
@@ -74,14 +74,14 @@ public class CompleteRegisterActivity extends AppCompatActivity {
         inputphone = (TextInputLayout) findViewById(R.id.complete_input_phone);
         inputcity = (TextInputLayout) findViewById(R.id.complete_input_city);
         inputclg = (TextInputLayout) findViewById(R.id.complete_input_clg);
-        text = (TextView) findViewById(R.id.complete_text);
+        text1 = (TextView) findViewById(R.id.complete_text);
         user =SharedPreferences.getSharedInfo(this);
         Bundle bundle = getIntent().getExtras();
         event = bundle.getString("event");
         clubName = bundle.getString("clubname");
         upperLimit = bundle.getInt("upperlimit");
         lowerLimit = bundle.getInt("lowerlimit");
-        text.setText("Maximum "+upperLimit+" can Register");
+        text1.setText("Maximum "+upperLimit+" can Register");
         if(count==upperLimit)
         {
             addMember.setVisibility(View.GONE);
@@ -449,7 +449,6 @@ public class CompleteRegisterActivity extends AppCompatActivity {
             accommodation.check(R.id.complete_acc_no);
         }
 
-        text.setText("Member :"+count);
     }
 
     @Override

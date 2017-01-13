@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,8 +26,10 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_home, container, false);
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Competitions");
         tabLayout = (TabLayout)v.findViewById(R.id.home_tab);
         viewPager = (ViewPager)v.findViewById(R.id.home_pager);
+
         HomeAdapter homeAdapter =new HomeAdapter(getChildFragmentManager());
         homeAdapter.addFragment(new CompetitionFragment(),"");
         homeAdapter.addFragment(new WorkshopFragment(),"");
@@ -39,6 +42,38 @@ public class HomeFragment extends Fragment {
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_pottery_man);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_conference);
         tabLayout.getTabAt(3).setIcon(R.drawable.ic_person_white_24px);
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                switch (tabLayout.getSelectedTabPosition()){
+                    case 0:
+                        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Competitions");
+                        break;
+                    case 1:
+                        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Workshops");
+                        break;
+                    case 2:
+                        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Talk Series");
+                        break;
+                    case 3:
+                        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Profile");
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {

@@ -28,12 +28,12 @@
                 android:id="@+id/lecture_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:layout_marginTop="15dp"
                 android:fontFamily="sans-serif"
                 android:text="Title"
-                android:textSize="16dp"
+                android:textSize="15dp"
                 android:textColor="@color/extra"/>
             <View
                 android:layout_width="150dp"

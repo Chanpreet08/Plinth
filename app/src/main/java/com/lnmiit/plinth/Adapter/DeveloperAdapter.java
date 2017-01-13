@@ -28,7 +28,7 @@ import java.util.ArrayList;
 public class DeveloperAdapter extends RecyclerView.Adapter<DeveloperAdapter.ViewHolder> {
 
     private Context context;
-    private String titles[]={"Chanpreet Singh Chhabra","Deepa Daga"};
+    private String titles[]={"Chanpreet Singh","Deepa Daga"};
     private String description[]={"Android App Developer and Freelancer","Android App Developer and Freelancer"};
     private String facebooks[]={"http://bit.ly/2jn6Mi9","http://bit.ly/2jn9pRh"};
     private String githubs[]={"https://github.com/Chanpreet08","https://github.com/deepadaga"};

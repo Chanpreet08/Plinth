@@ -11,6 +11,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.telecom.Call;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -44,8 +45,12 @@ import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.common.api.Status;
 import com.lnmiit.plinth.Model.User;
+import com.lnmiit.plinth.Model.Validate;
 import com.lnmiit.plinth.R;
 import com.lnmiit.plinth.Tool.Tools;
+import com.lnmiit.plinth.response.ValidateResponse;
+import com.lnmiit.plinth.rest.ApiClient;
+import com.lnmiit.plinth.rest.ApiInterface;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -54,6 +59,9 @@ import org.w3c.dom.Text;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
+
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 
@@ -104,6 +112,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         text.setTypeface(custom_font);
         year.setTypeface(custom_font1);
         google = (Button) findViewById(R.id.google_bt);
+
         try {
             PackageInfo info = getPackageManager().getPackageInfo(
                     "com.example.packagename",
@@ -164,18 +173,59 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                                     JSONObject object,
                                     GraphResponse response) {
                                 Log.v("LoginActivity Response ", response.toString());
-                                AccessToken token = AccessToken.getCurrentAccessToken();
-                                userId=token.getUserId();
+                                AccessToken token1 = AccessToken.getCurrentAccessToken();
+                                userId=token1.getUserId();
                                 login="facebook";
                                 try {
                                     username = object.getString("name");
                                     emailId = object.getString("email");
-                                    User user = new User();
-                                    user.setUsername(username);
-                                    user.setEmailId(emailId);
-                                    SharedPreferences.putSharedPrefeneces(getApplicationContext(),user);
-                                    gotoCompleteLogin();
-                                    finish();
+                                    Validate validate = new Validate();
+                                    validate.setAccessToken(token);
+                                    validate.setValidateEmail(emailId);
+                                    ApiInterface apiService = ApiClient.getRetrofitClient().create(ApiInterface.class);
+                                    retrofit2.Call<ValidateResponse> call = apiService.validateFacebook(validate);
+                                    pd.show();
+                                    call.enqueue(new Callback<ValidateResponse>() {
+                                        @Override
+                                        public void onResponse(retrofit2.Call<ValidateResponse> call, Response<ValidateResponse> response) {
+                                            if (response.isSuccessful())
+                                            {
+                                                pd.dismiss();
+                                                if (response.body().getValidateMsg().equals("true"))
+                                                {
+                                                    Toast.makeText(LoginActivity.this,"Successful",Toast.LENGTH_LONG).show();
+                                                    User user = new User();
+                                                    user.setPhone(response.body().getValidatePhone());
+                                                    user.setCollege(response.body().getValidateCollege());
+                                                    user.setYear(response.body().getValidateYear());
+                                                    user.setCity(response.body().getValidateCity());
+                                                    user.setAccommodation(response.body().getValidateAccommodation());
+                                                    user.setGender(response.body().getValidateGender());
+                                                    user.setUsername(response.body().getValidateUsername());
+                                                    user.setEmailId(response.body().getValidateEmailId());
+                                                    SharedPreferences.putSharedPrefeneces(LoginActivity.this,user);
+                                                    Intent mainIntent = new Intent(LoginActivity.this,MainActivity.class);
+                                                    startActivity(mainIntent);
+                                                    finish();
+                                                }
+                                                else {
+                                                    User user = new User();
+                                                    user.setUsername(username);
+                                                    user.setEmailId(emailId);
+                                                    SharedPreferences.putSharedPrefeneces(getApplicationContext(),user);
+                                                    gotoCompleteLogin();
+                                                    finish();
+                                                }
+                                            }
+                                        }
+
+                                        @Override
+                                        public void onFailure(retrofit2.Call<ValidateResponse> call, Throwable t) {
+                                            pd.dismiss();
+                                            Toast.makeText(LoginActivity.this,"Unsuccessful",Toast.LENGTH_LONG).show();
+                                        }
+                                    });
+
                                 } catch (JSONException e) {
                                     e.printStackTrace();
                                 }
@@ -247,7 +297,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    protected void onActivityResult(final int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         callbackManager.onActivityResult(requestCode, resultCode, data);
 
@@ -264,13 +314,54 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 username = acct.getDisplayName();
                 emailId = acct.getEmail();
                 userId =acct.getId();
-                User user = new User();
-                user.setUsername(username);
-                user.setEmailId(emailId);
-                SharedPreferences.putSharedPrefeneces(getApplicationContext(),user);
-                Log.d(TAG, "idToken:" + token);
-                gotoCompleteLogin();
-                finish();
+                Validate validate = new Validate();
+                validate.setValidateEmail(emailId);
+                validate.setAccessToken(token);
+                ApiInterface apiService = ApiClient.getRetrofitClient().create(ApiInterface.class);
+                pd.show();
+                retrofit2.Call<ValidateResponse> call = apiService.validateGoogle(validate);
+                call.enqueue(new Callback<ValidateResponse>() {
+                    @Override
+                    public void onResponse(retrofit2.Call<ValidateResponse> call, Response<ValidateResponse> response) {
+                        if (response.isSuccessful())
+                        {
+                            pd.dismiss();
+                            if (response.body().getValidateMsg().equals("true"))
+                            {
+                                User user = new User();
+                                user.setPhone(response.body().getValidatePhone());
+                                user.setCollege(response.body().getValidateCollege());
+                                user.setYear(response.body().getValidateYear());
+                                user.setCity(response.body().getValidateCity());
+                                user.setAccommodation(response.body().getValidateAccommodation());
+                                user.setGender(response.body().getValidateGender());
+                                user.setUsername(response.body().getValidateUsername());
+                                user.setEmailId(response.body().getValidateEmailId());
+                                SharedPreferences.putSharedPrefeneces(LoginActivity.this,user);
+                                Intent mainIntent = new Intent(LoginActivity.this,MainActivity.class);
+                                startActivity(mainIntent);
+                                finish();
+                            }
+                            else
+                            {
+                                User user = new User();
+                                user.setUsername(username);
+                                user.setEmailId(emailId);
+                                SharedPreferences.putSharedPrefeneces(getApplicationContext(),user);
+                                Log.d(TAG, "idToken:" + token);
+                                gotoCompleteLogin();
+                                finish();
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(retrofit2.Call<ValidateResponse> call, Throwable t) {
+                        pd.dismiss();
+                        Toast.makeText(LoginActivity.this,"Unsuccessful",Toast.LENGTH_LONG).show();
+                    }
+                });
+
                 //text.setText(idToken);
                 //updateUI(true);
 
@@ -286,7 +377,5 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
     }
-
-
 
 }

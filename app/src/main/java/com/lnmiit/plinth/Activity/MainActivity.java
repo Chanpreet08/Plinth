@@ -102,6 +102,8 @@ public class MainActivity extends AppCompatActivity
             getSupportActionBar().setTitle("Contact Us");
         } else if (id == R.id.share) {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
+            shareIntent.putExtra(Intent.EXTRA_TEXT,
+                    "App!! It's time you have it too! To get the entire Plinth schedule and lot more interactive activities download the app from play store: https://play.google.com/store/apps/details?id=com.lnmiit.plinth");
             shareIntent.setType("text/plain");
             startActivity(Intent.createChooser(shareIntent,"Share With"));
         } else if (id == R.id.about_us) {
