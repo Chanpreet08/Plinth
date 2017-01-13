@@ -26,11 +26,12 @@ public class TransporterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transporter);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Transporter");
         viewPager = (ViewPager) findViewById(R.id.pager_transporter);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_transporter);
         heading = getResources().getStringArray(R.array.transporter_heading);
         des = getResources().getStringArray(R.array.transporter_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"transporter");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

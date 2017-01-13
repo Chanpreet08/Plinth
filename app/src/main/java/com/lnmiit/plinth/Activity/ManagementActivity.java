@@ -27,6 +27,7 @@ public class ManagementActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_management);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Management");
         recyclerView = (RecyclerView) findViewById(R.id.management_recycler);
         title = getResources().getStringArray(R.array.management);
         description = getResources().getStringArray(R.array.management_description);

@@ -26,11 +26,12 @@ public class FixthebugActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fixthebug);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Fix The Bug");
         viewPager = (ViewPager) findViewById(R.id.pager_fixthebug);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_fixthebug);
         heading = getResources().getStringArray(R.array.fisthebug_heading);
         des = getResources().getStringArray(R.array.fixthebug_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"fix the bug");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

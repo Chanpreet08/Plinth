@@ -27,6 +27,7 @@ public class QuizzingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quizzing);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Quizzing");
         recyclerView = (RecyclerView) findViewById(R.id.quiz_recycler);
         title = getResources().getStringArray(R.array.quiz);
         description = getResources().getStringArray(R.array.quiz_description);

@@ -27,6 +27,7 @@ public class CodingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coding);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Coding");
         recyclerView = (RecyclerView) findViewById(R.id.coding_recycler);
         title = getResources().getStringArray(R.array.coding);
         description = getResources().getStringArray(R.array.coding_description);

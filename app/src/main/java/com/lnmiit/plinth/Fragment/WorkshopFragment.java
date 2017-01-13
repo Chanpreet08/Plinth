@@ -3,6 +3,7 @@ package com.lnmiit.plinth.Fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -27,12 +28,13 @@ public class WorkshopFragment extends Fragment {
     private LinearLayoutManager linearLayoutManager;
     private String[] title;
     private String[] description;
-    private int images[]={R.drawable.ic_vehicle,R.drawable.ic_webomaster,R.drawable.augmented};
+    private int images[]={R.drawable.ic_photography,R.drawable.ic_3dprinter,R.drawable.ic_vehicle,R.drawable.ic_webomaster,R.drawable.augmented};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_workshop, container, false);
+
         recyclerView = (RecyclerView) v.findViewById(R.id.workshop_recycler);
         title = getResources().getStringArray(R.array.workshop_heading);
         description = getResources().getStringArray(R.array.workshop_des);

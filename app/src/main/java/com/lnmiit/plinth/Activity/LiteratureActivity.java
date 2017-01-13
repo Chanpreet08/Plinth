@@ -27,6 +27,7 @@ public class LiteratureActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_literature);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Literature");
         recyclerView = (RecyclerView) findViewById(R.id.literature_recyceler);
         title = getResources().getStringArray(R.array.literature);
         description = getResources().getStringArray(R.array.literature_description);

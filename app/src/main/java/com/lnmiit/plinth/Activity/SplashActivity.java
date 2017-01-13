@@ -32,7 +32,7 @@ public class SplashActivity extends AppCompatActivity {
                     e.printStackTrace();
                 } finally {
                     try {
-                        if (user.getEmailId().equals("") || user == null) {
+                        if (user.getPhone().equals("") || user == null) {
                             Intent mainIntent = new Intent(SplashActivity.this, LoginActivity.class);
                             startActivity(mainIntent);
                             finish();

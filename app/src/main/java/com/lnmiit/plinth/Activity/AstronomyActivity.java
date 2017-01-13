@@ -32,6 +32,7 @@ public class AstronomyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Astronomy");
         recyclerView = (RecyclerView) findViewById(R.id.sub_recycler);
         title = getResources().getStringArray(R.array.Astronomy);
         description = getResources().getStringArray(R.array.Astronomy_description);

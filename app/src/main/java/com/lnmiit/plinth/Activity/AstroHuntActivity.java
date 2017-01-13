@@ -26,11 +26,12 @@ public class AstroHuntActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_astro_hunt);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Astro Hunt");
         viewPager = (ViewPager) findViewById(R.id.pager_astrohunt);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_astrohunt);
         heading = getResources().getStringArray(R.array.astrohunt_heading);
         des = getResources().getStringArray(R.array.astrohunt_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"astrohunt");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

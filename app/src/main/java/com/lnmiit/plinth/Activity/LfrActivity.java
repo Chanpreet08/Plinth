@@ -26,11 +26,12 @@ public class LfrActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lfr);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("LFR");
         viewPager = (ViewPager) findViewById(R.id.pager_lfr);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_lfr);
         heading = getResources().getStringArray(R.array.lfr_heading);
         des = getResources().getStringArray(R.array.lfr_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"lfr");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

@@ -26,11 +26,12 @@ public class QuadcopterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quadcopter);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Quadcopter");
         viewPager = (ViewPager) findViewById(R.id.pager_quadcopter);
         CircleIndicator circleIndicator = (CircleIndicator) findViewById(R.id.indicator_quadcopter);
         heading = getResources().getStringArray(R.array.quadcopter_heading);
         des = getResources().getStringArray(R.array.quadcopter_des);
-        adapter = new Layer3Adapter(this,list);
+        adapter = new Layer3Adapter(this,list,"quadcopter");
         viewPager.setClipToPadding(false);
         viewPager.setPageMargin(35);
         viewPager.setOffscreenPageLimit(4);

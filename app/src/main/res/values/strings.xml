@@ -10,31 +10,31 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="about_us">
-        Plinth is the annual inter college Techno-Management-Literary Festival of the LNMIIT, Jaipur.
+        Plinth is the annual inter college Techno-Management-Literary Festival of the LNMIIT, Jaipur.\n
 
-        A bud when comes out of its cover, strives for the glow which could make it an attractive flower. So, here in Plinth as we celebrate the third year of its
-        successful organization, we are proud to say that the bud found its glow in the enthusiasm and the confidence of its participants.
+        \nA bud when comes out of its cover, strives for the glow which could make it an attractive flower. So, here in Plinth as we celebrate the third year of its
+        successful organization, we are proud to say that the bud found its glow in the enthusiasm and the confidence of its participants.\n
 
-        Plinth brings immense opportunities for all the enthusiasts to showcase their talents and skills. The coalescence of all the different fields of career
+        \nPlinth brings immense opportunities for all the enthusiasts to showcase their talents and skills. The coalescence of all the different fields of career
         takes place at various corners of a single place. It starts with a typical morning that brings everyone out of their warm coziness. Ready and suited to
         make it grand and successful, after the long days of hard work. Rushing out fearlessly to know and gather all that is offered. For some it is where the
         key to this whole new world of technology and innovation is found. While for others, it is where they meet new friends whom they can take along in their
-        journey to learn more and conquer this huge expanse of science.
+        journey to learn more and conquer this huge expanse of science.\n
 
-        The creaks of the robots clashing, the noise of the people debating, and the thunder of claps for the speaker who would have just kindled hundreds of
+        \nThe creaks of the robots clashing, the noise of the people debating, and the thunder of claps for the speaker who would have just kindled hundreds of
         hearts, mark the plinth days. With an enormous amount of rage and knowledge facing off under one roof, it is a spark created by the meet of inspiration
-        and technology. While the end, with a blithesome entertainment that is sure to rejuvenate all after the long day of learning and competing.
+        and technology. While the end, with a blithesome entertainment that is sure to rejuvenate all after the long day of learning and competing.\n
 
-        Get ready to experience the elegance of science in its style. Once you are here, you are no more a student or a teacher, but a learner for whom there are
+        \nGet ready to experience the elegance of science in its style. Once you are here, you are no more a student or a teacher, but a learner for whom there are
         lots kept in store to explore. See what is happening around the world. What is it that which is made for you? Come and join us to listen to the stories
-        that everyone has got to share.
+        that everyone has got to share.\n
         
-        Learn and take away with you a truly enriching experience.
+        \nLearn and take away with you a truly enriching experience.\n
     </string>
 
-    <string name="facebook_app_id">1656250501335022</string>
-    <string name="fb_login_protocol_scheme">fb1656250501335022</string>
-    <string name="server_client_id">648966113918-ur406undh8rd0nh35o1ulvrhpl9ftg6t.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">168845313579478</string>
+    <string name="fb_login_protocol_scheme">fb168845313579478</string>
+    <string name="server_client_id">870193934250-9udq9itfdrm178eqtohvf3b18e4d23m5.apps.googleusercontent.com</string>
     <string name="login_text">Register yourself for different competitions through this portal to know further details and proceedings of PLINTH17. Moreover if you register through this platform , you would be able to get exclusive coupons and offers.</string>
     <string-array name="competitions">
         <item>Astronomy</item>
@@ -923,15 +923,361 @@ Mayuri Agrawal: +91-9414048295\n
 sif.plinth@gmail.com\n
         </item>
     </string-array>
-    
+
     <string-array name="workshop_heading">
+
+        <item>Photography Workshop</item>
+        <item>3D Printer Workshop</item>
         <item>Vehicle Design and Dynamics</item>
         <item>Web O Master</item>
         <item>Touch and Augmented Realities</item>
     </string-array>
     <string-array name="workshop_des">
+        <item>Learn and master the skills of photography,by india\s one of the most famous photographer,"Auditya Venkatesh"</item>
+        <item>Learn about the materials, designing of CAD models, working of a 3D Printer.</item>
         <item>Do vehicles excite you? Learn principles, simulation, design and manufacturing a prototype of an automobile!\n</item>
         <item>Learn and master the secrets of web technologies, Content Management and Search Engine Optimization\n</item>
         <item>Learn about sixth sense technologies on which Microsoft,Google,Intel and many more.</item>
+    </string-array>
+
+    <string-array name="lecture_title">
+        <item>Dr.V.A.Shiva Ayyadurai</item>
+        <item>Balaji Vishwanathan </item>
+        <item>Dr. Sangram Ganguly </item>
+        <item>Shubhranshu Choudhary </item>
+    </string-array>
+    <string-array name="lecture_des">
+        <item>The Inventor of Email.</item>
+        <item>VP Product, Invento</item>
+        <item>Senior Research Scientist, NASA</item>
+        <item>Award Winning Journalist</item>
+    </string-array>
+
+    <string-array name="printer_heading">
+        <item>About Workshop</item>
+        <item>Highlights</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="printer_des">
+        <item>
+            3D Printing is an Additive Manufacturing technique that creates a physical object from a virtual 3D CAD model by depositing successive layers of material. They work like the traditional inkjet printers, but instead of ink, a 3D printer deposits desired material to manufacture an object from its digital format. 3D printing and rapid prototyping, in general, are widely claimed to have revolutionized not only the manufacturing industry but also many other walks of life like medicine, aerospace and autom -otive industry. This program on 3D Printing helps the participants understand the design, functioning and operation of a basic 3D Printer.\n
+
+        </item>
+        <item>
+            1.Learn about the materials, designing of CAD models, working of a 3D Printer.\n
+            2.Understand how to build and calibrate a 3D printer.\n
+            3.Understand the basics of G code generation.\n
+            4.The participants will get 30 printed models that they design.\n
+            5.Certificate of Completion with Distinction (for top performers) and Certificate of Completion\n
+            \nCourse Structure\n
+            Introductory lecture on 3D printer and Rapid Prototyping:\n
+            1.Introduction to Rapid prototype\n
+            2.Introduction to different types of 3D printers\n
+            3.Introduction to RepRap and Arduino electronic controller\n
+            4.Materials used for printing\n
+            STL files\n
+            1.Concepts of solidworks software\n
+            2.Design of Assembly\n
+            Introduction to G Code\n
+            Presentation of 3D Printer assembly\n
+            Demonstration of 30 Printing\n
+            \n Kit Content\n
+            Printer would be provided during the workshop but would be taken back after the workshop. This is being done to reduce the cost of the workshop and make it affordable for students. For purchase the printer kit. you can contact us personally.\n
+
+        </item>
+        <item>
+            Fee : INR. 250/- per person(Early Bird)\n
+            19th Jan 2017 \n
+            Venue : The LNMIIT, Jaipur\n
+            Accommodation Charges are 200/- per day (onsite)\n
+            \nFor Any Queries Contact\n
+
+            Romit Jain : +91-9549037612 | romit.73@gmail.com\n
+            Vipul Behl : +91-9468590302 | vbehl03@gmail.com\n
+        </item>
+    </string-array>
+    <string-array name="photography_heading">
+        <item>About Workshop</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="photography_des">
+        <item>
+            With the advent use of smartphones and better affordable cameras, more and more people are turning to photography as a hobby as well as a full time job.\n
+            \nAuditya Venkatesh, better known as Audi, is a self taught photographer who is now a youth icon. He has over 8 lakhs followers on facebook and above 1.5 lakhs followers on Instagram. His top clientele includes brands like Vodafone, Samsung, Nissan and Toyota as his patrons. Also his interviews are included in economic times as well as India Today. He has also shot several videos and photos for Discovery Channel and has a youtube channel where he posts his work regularly, which also reaches the trending page of the country regularly. Auditya is also a motivational speaker and has given a Ted Talk.\n
+        </item>
+        <item>
+            Fee : INR. 500/- per person(Early Bird)\n
+            18th Jan 2017 (2 pm)\n
+            Venue : The LNMIIT, Jaipur\n
+            Accommodation Charges are 200/- per day (onsite)\n
+            For Any Queries Contact\n
+
+            Romit Jain : +91-9549037612 | romit.73@gmail.com\n
+            Vipul Behl : +91-9468590302 | vbehl03@gmail.com\n
+        </item>
+    </string-array>
+    <string-array name="vehicle_heading">
+        <item>About Workshop</item>
+        <item>Workshop Content</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="vehicle_des">
+        <item>
+           It is workshop for those who gets excited by vehicles. In the 15 hours of workshop, the participants will be taught basics of automobile, its working principles, simulation, design and manufacturing a prototype of an automobile. It will provide an insight on how to collaborate design with various automotive components to design a better vehicle in all the terms. Students who are pursuing engineering can learn various concepts regarding engineering mechanics, engineering design of machine elements and mechanics of material using software like CAD/CAE.\n
+            The participants will be a given a free kit during the workshop. The contents of the kit include:\n
+            1.1x CD\n
+            2.Datasheets\n
+            3.Drivers\n
+            4.PPTs\n
+            5.Software\n
+            6.Tutorials\n
+            7.User Manual\n
+            8.1x Booklet\n
+        </item>
+        <item>
+            Section-A\n
+            1.Understanding basics of automobile\n
+            2.Working principle of different components of vehicle and brief discussion on each part.\n
+            3.Safety measures to be undertaken by students during working in workshop.\n
+            \nSection B\n
+            1.Fundamental Design discussion\n
+            2.Parameters listing\n
+            3.Engine selection process\n
+            4.Tire selection process\n
+            5.Chassis Design\n
+            6.Transmission and engine control system\n
+            \nSection C \n
+            1.The Suspension system\n
+            2.Suspension working and components analysis\n
+            3.Design of spring and shock absorbers\n
+            4.Independent and dependent suspension\n
+            5.Double wishbone suspension system design\n
+            6.Wheel alignment angles\n
+            7.The load transfer\n
+            8.Braking system:\n
+            9.Disc brake system design\n
+            10.Hydraulic circuit for braking system\n
+            11.Actuation methods\n
+            12.Rotor shear stress concepts\n
+            13.Brake biasing\n
+            14.Tires and Traction\n
+            15.Terrain analysis\n
+            16.Selection of tire\n
+            17.Concept of grip and traction\n
+            18.Slip angles\n
+            19.Cornering stiffness\n
+            20.Ergonomics\n
+            21.Cockpit design of ATV Car\n
+            22.Design of pedals and driver safety systems\n
+
+            \nSection D\n
+            1.Discussion/knowledge sharing about the preparation for different student competitions/racing championships/Events where students can represent their college/university globally. General knowledge about the events like ATV championships, Formulae Racing, Go Karts, Quad Racing, Rallies, bike racing championships.\n
+            2.Discussion about the different international Automotive Competition Rulebooks. To make students develop Teamwork, extract Leadership Qualities within them. To develop them in marketing skills like arrangement of funds for their projects.\n
+
+        </item>
+        <item>
+            Fee :  INR. 950/- per person\n
+            18th - 19th Jan 2017
+            Venue : The LNMIIT, Jaipur\n
+            Accommodation Charges are 200/- per day (onsite)\n
+            For Any Queries Contact\n
+
+            Romit Jain : +91-9549037612 | romit.73@gmail.com\n
+            Vipul Behl : +91-9468590302 | vbehl03@gmail.com\n
+        </item>
+    </string-array>
+
+    <string-array name="webomaster_heading">
+        <item>About Workshop</item>
+        <item>Workshop Content</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="webomaster_des">
+        <item>
+           Engineer Indya in association with EI Transporation presents India\'s Unique two days Combo Workshop on Web-O-Master with a Live Project. It\'s a two days workshop based on Web Development, Joomla CMS, Search Engine Optimization(SEO), Social Media Optimization (SMO), App Development and Web Security. Also get a chance to work on a Live Project based on a Social Networking Community Site for Engineers of India. All participants will be awarded with a dual certificate for attending this workshop i.e. Certificate of Merit and Live Project Completion Certificate.\n
+            \nThis is a comprehensive course designed for people who have little IT (Information Technology) knowledge to help individuals gain a good grounding in the fundamentals of this popular open source Content Management System (CMS) and latest web technologies. So that they can create, manage and promote their website. Only a little IT knowledge is necessary to attend this Workshop.\n
+        </item>
+        <item>
+            Introduction\n
+            What is web application?\n
+            Basics of Web Development.\n
+            Types of Script languages.\n
+            Difference between Server and Client Side Scripts\n
+            Local Web Development Setup ( Wamp, Xampp etc. )\n
+            Testing Local Environment\n
+            \nWeb Server and Domain\n
+            What is web server?\n
+            What is domain name?\n
+            Is it free?\n
+            How to register Domain Name?\n
+            Local Web Development Setup ( Wamp, Xampp etc. )\n
+            How to purchase space in Web Server?\n
+            \nHTML \n
+            What is HTML?n
+            First web page\n
+            Common Tags introduction\n
+            Tag structure to be followed\n
+            HTML Trends\n
+            \nScripting\n
+            What are Client Side Scripts?\n
+            What are Server Side Scripts?\n
+            Introduction to PHP\n
+            Basic code run of PHP\n
+            \nMy SQL, PHP My Admin and Connectivity:\n
+            What is MySQL?\n
+            Introduction of SQL\n
+            First Code run of SQL\n
+            What is phpMyAdmin?\n
+            Understanding Interface\n
+            Creating Database in local MySQL Server\n
+            Creating User and its Acces Rights in phpMyAdmin\n
+            MySQL Connectivity using PHP\n
+            \nForms using HTML and PHP\n
+            What is a Form?\n
+            Get and post methods\n
+            Google Forms\n
+            Embedded Google Form in own Page\n
+            \nUploading Web site to Server (FTP Access)\n
+            What is FTP Client?\n
+            What is FileZilla?\n
+            Uploading website to a webserver.\n
+            \nWeb Development and CMS\n
+            Introduction to Web Designing\n
+            CMS, Web System and Planning\n
+            Understanding different Web Technologies.\n
+            Understanding Web Layout.\n
+            Understanding Joomla CMS.\n
+            \nWeb Designing using Joomla CMS\n
+            Basic about Database (MySQL).\n
+            Installing and Configuring Joomla.\n
+            Choosing and Editing Template.\n
+            Working with Menus.\n
+            Extending Joomla: Modules, Components and Plugins.\n
+            Creating Web Pages in Joomla.\n
+            Launching Joomla Site.\n
+            \ncPanel and Hosting Administration\n
+            What is cPanel ?\n
+            Hosting Administration with CPanel.\n
+            Creating Back Ups.\n
+            Publishing Website\n
+            Creating Professional Email-Id (e.g: raj@abc.com )\n
+            \nSearch Engine Optimization (SEO)\n
+            Introduction about SEO (Search Engine Optimization).\n
+            SEO on HTML Websites.\n
+            SEO in Joomla.\n
+            Google Analytics Session\n
+            Joomla Advance Parameters.\n
+            \nSocial Networking Session\n
+            Social Media Optimization (SMO)\n
+            Defining Marketing Strategies\n
+            Favicon.\n
+            Facebook Analytics\n
+            \nWeb Security\n
+            Introduction to Web Security.\n
+            \nApp Development using jQuery Mobile\n
+            Introduction to jQuery : Mobile, UI etc.\n
+            Introduction to jQuery Mobile\n
+            Making Mobile Based Web Applications\n
+            Building an app using jQuery mobile\n
+            \nProject Work\n
+            Project Discussion\n
+            Understanding Project Work\n
+
+        </item>
+        <item>
+            Fee :  INR. 950/- per person\n
+            18th - 19th Jan 2017
+            Venue : The LNMIIT, Jaipur\n
+            Accommodation Charges are 200/- per day (onsite)\n
+            For Any Queries Contact\n
+
+            Romit Jain : +91-9549037612 | romit.73@gmail.com\n
+            Vipul Behl : +91-9468590302 | vbehl03@gmail.com\n
+        </item>
+    </string-array>
+
+    <string-array name="augmented_heading">
+        <item>About Workshop</item>
+        <item>Workshop Content</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="augmented_des">
+        <item>
+Touch and Augmented Reality is the two days workshop to learn about sixth sense technologies on which Microsoft, Google, Intel and many more organisations currently working on it.\n
+            \nHighlights\n
+            Create Multi Touchpad\n
+            Control PC with Hand Gestures and Eyes\n
+            Convert laptop screen into touch\n
+            Make Interactive Touch wall\n
+            Control Music with Paper\n
+            Make Kinect Xbox 360 applications\n
+            Create a augmented world\n
+            Gesture Interface\n
+            Play games using motion sensing\n
+            Create windows applications.\n
+            \nBenefits to participants\n
+            National level certificate\n
+            Tool kit CD and E-Books\n
+            Hands-on- training\n
+            Lifetime online support\n
+            Attractive prizes\n
+            internship offers\n
+            20% discount on summer and winter training by Roboflux Technologies\n
+
+        </item>
+        <item>
+            Basics of computer Systems\n
+            Introduction to computer system\n
+            Types of system\n
+            Difference b/w GUI and NUI\n
+            Introduction to natural inputs\n
+            \nTouch technologies\n
+            Introduction to Resistive touch\n
+            Working of resistive touch\n
+            Applications of resistive touch\n
+            Introduction to Capacitive touch\n
+            Working of capacitive touch\n
+            Applications of capacitive touch\n
+            \nIntroduction to Touch Computing \n
+            FTIR\n
+            DI\n
+            DSI\n
+            LED-LP\n
+            LLP\n
+            Making a touch pad setup\n
+            Testing touch pad\n
+            Running few application\n
+            Drive mouse pointer using that touch pad\n
+            how to create touch screen\n
+            Introduction to motion sensing device\n
+            Give desired controls to your laptop\n
+            Coding to make desired control and games\n
+            Move mouse pointer using accelerometer\n
+            Making a interactive touch wall\n
+
+            \nGesture Computing\n
+            Introduction to Gesture Computing\n
+            Introduction to Kinect\n
+            Introduction Image Processing\n
+            Computing the gestures using Web-Cam\n
+            Color Detection using Web-Cam\n
+            \nAugmented Reality\n
+            Tracking nearest Object\n
+            Creating your Augmented World\n
+            Converting the Physical Information into Graphical Information\n
+          \nInnovative Application\n
+            Code your Application\n
+            Making a Paint Application for Win, Linux\n
+        </item>
+        <item>
+            Fee :  INR. 750/- per person \n
+            18th - 19th Jan 2017
+            Venue : The LNMIIT, Jaipur\n
+            Accommodation Charges are 200/- per day (onsite)\n
+            For Any Queries Contact\n
+
+            Romit Jain : +91-9549037612 | romit.73@gmail.com\n
+            Vipul Behl : +91-9468590302 | vbehl03@gmail.com\n
+        </item>
     </string-array>
 </resources>
