@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.lnmiit.plinth.Activity.AstronomyActivity">
+    tools:context="com.madclub.plinth.lnmiit.madclub.plinth.Activity.AstronomyActivity">
 
     <android.support.v7.widget.RecyclerView
         android:layout_margin="5dp"

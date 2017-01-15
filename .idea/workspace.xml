@@ -8,14 +8,77 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="key" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="063c68fb-e1db-41b5-8a24-040637ad7b5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Validate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/response/ValidateResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/lnmiit/plinth/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/lnmiit/madclub/plinth/ExampleInstrumentedTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/ArmageddonActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/ArmageddonActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/AstroHuntActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/AstroHuntActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/AstronomyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/AstronomyActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/AugmentedActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/AugmentedActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CodingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CodingActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteLoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteLoginActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteRegisterActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/DistarctionIupcActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/DistarctionIupcActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/FixthebugActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/FixthebugActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/IupcActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/IupcActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/LfrActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LfrActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/LiteratureActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LiteratureActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LoginActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/ManagementActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/ManagementActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/MyApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/MyApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/PhotoGraphyWorkshopActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/PhotoGraphyWorkshopActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/PrinterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/PrinterActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/QuadcopterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/QuadcopterActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/QuestActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/QuestActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/QuizzingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/QuizzingActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/RoboSoccerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RoboSoccerActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/RoboraceActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RoboraceActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/RoboticsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RoboticsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/RobowarActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RobowarActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/RostrumActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RostrumActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/SharedPreferences.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/SharedPreferences.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/SifActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/SifActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/SplashActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/StarTrekActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/StarTrekActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/TransporterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/TransporterActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/VehicleActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/VehicleActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/WebomasterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/WebomasterActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/WrangleActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/WrangleActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/CardAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/CardAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/DeveloperAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/DeveloperAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/HomeAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/HomeAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/Layer2Adapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/Layer2Adapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/Layer3Adapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/Layer3Adapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/LectureAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/LectureAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/AboutUsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/AboutUsFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/CompetitionFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/CompetitionFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/ContactUsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/ContactUsFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/DeveloperFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/DeveloperFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/HomeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/HomeFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/LectureFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/LectureFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/ProfileFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/ProfileFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/WorkshopFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/WorkshopFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Contact.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Model/Contact.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Data.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Model/Data.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Lecture.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Model/Lecture.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Register.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Model/Register.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Model/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Validate.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Model/Validate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/pager.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Model/pager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Tool/Tools.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Tool/Tools.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/response/ContactUsResponse.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/response/ContactUsResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/response/EventRegisterResponse.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/response/EventRegisterResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/response/ValidateResponse.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/response/ValidateResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/response/registerResponse.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/response/registerResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/rest/ApiClient.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/rest/ApiClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/rest/ApiInterface.java" afterPath="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/rest/ApiInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/test/java/com/lnmiit/plinth/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/lnmiit/madclub/plinth/ExampleUnitTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -24,22 +87,57 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-24.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-24.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/DeveloperAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/DeveloperAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/CompetitionFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/CompetitionFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/HomeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/HomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/LectureFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/LectureFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/ProfileFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/ProfileFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/WorkshopFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/WorkshopFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/rest/ApiClient.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/rest/ApiClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/rest/ApiInterface.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/rest/ApiInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_layout_pager.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_layout_pager.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_layout_speakers.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_layout_speakers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_armageddon.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_armageddon.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_astro_hunt.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_astro_hunt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_augmented.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_augmented.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_coding.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_coding.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_complete_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_complete_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_complete_register.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_complete_register.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_distarction_iupc.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_distarction_iupc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fixthebug.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fixthebug.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_iupc.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_iupc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_lfr.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_lfr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_literature.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_literature.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_management.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_management.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_photo_graphy_workshop.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_photo_graphy_workshop.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_printer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_printer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_quadcopter.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quadcopter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_quest.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_quizzing.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quizzing.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_robo_soccer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_robo_soccer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_roborace.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_roborace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_robotics.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_robotics.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_robowar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_robowar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_rostrum.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rostrum.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sif.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sif.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_star_trek.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_star_trek.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sub.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sub.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_transporter.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_transporter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vehicle.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vehicle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_webomaster.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_webomaster.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_wrangle.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_wrangle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about_us.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about_us.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_competition.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_competition.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contact_us.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contact_us.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_developer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_developer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_lecture.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_lecture.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_workshop.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_workshop.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Plinth.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,6 +164,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
         <projects_view>
           <tree_state />
         </projects_view>
@@ -77,128 +178,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeveloperFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/DeveloperFragment.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="1476">
+              <caret line="102" column="225" selection-start-line="102" selection-start-column="225" selection-end-line="102" selection-end-column="225" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/HomeFragment.java">
+      <file leaf-file-name="ArmageddonActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/ArmageddonActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+            <state relative-caret-position="72">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeveloperAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/DeveloperAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/MainActivity.java">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+            <state relative-caret-position="202">
+              <caret line="144" column="11" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4327#4553#0" expanded="true" />
+                <element signature="e#4552#4553#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Android/Sdk/sources/android-24/android/content/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7362">
+              <caret line="474" column="24" selection-start-line="474" selection-start-column="24" selection-end-line="474" selection-end-column="24" />
+              <folding>
+                <element signature="e#21024#21025#0" expanded="true" />
+                <element signature="e#21078#21079#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/HomeAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#479#480#0" expanded="false" />
-                <element signature="e#504#505#0" expanded="false" />
-                <element signature="e#709#710#0" expanded="false" />
-                <element signature="e#758#759#0" expanded="false" />
-                <element signature="e#826#827#0" expanded="false" />
-                <element signature="e#872#873#0" expanded="false" />
-                <element signature="e#915#916#0" expanded="false" />
-                <element signature="e#957#958#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeveloperAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/DeveloperAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-              <folding>
-                <element signature="e#4081#4082#0" expanded="false" />
-                <element signature="e#4117#4118#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LectureFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/LectureFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LectureAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/LectureAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#3704#3705#0" expanded="false" />
-                <element signature="e#3738#3739#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="row_layout_speakers.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_layout_speakers.xml">
-          <provider editor-type-id="android-designer2">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="216">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompleteRegisterActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java">
+      <file leaf-file-name="FixthebugActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/FixthebugActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="173" column="4" selection-start-line="173" selection-start-column="4" selection-end-line="173" selection-end-column="4" />
+            <state relative-caret-position="162">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfileFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/ProfileFragment.java">
+      <file leaf-file-name="ManagementActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/ManagementActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -213,6 +304,10 @@
         <option value="ASClass" />
       </list>
     </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/plinth/Plinth.jks" />
+    <option name="KEY_ALIAS" value="Plinth" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1732,7 +1827,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4446602084584" />
+        <entry key="$PROJECT_DIR$" value="4447461784550" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1998,64 +2093,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/WebomasterActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/WrangleActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/response/EventRegisterResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/card_row_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteLoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/ScheduleFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/CardAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_printer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/PrinterActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_competition.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_workshop.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_lecture.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_sub.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_coding.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_robotics.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quizzing.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_literature.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_management.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_complete_register.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_complete_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Developer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/DeveloperFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_developer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_layout_developer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/Layer3Adapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Validate.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/User.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/response/ValidateResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/rest/ApiInterface.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/rest/ApiClient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_layout_pager.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/WorkshopFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/ProfileFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/LectureFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/CompetitionFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_layout_speakers.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/DeveloperAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/HomeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnm/madclub/plinth/Fragment/AboutUsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/AboutUsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/CompetitionFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/ProfileFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteLoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/PrinterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/DistarctionIupcActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/VehicleActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RoboSoccerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/WebomasterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/QuadcopterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/StarTrekActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/AugmentedActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/QuizzingActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteRegisterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LiteratureActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/PhotoGraphyWorkshopActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/IupcActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RoboticsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/TransporterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/WrangleActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RoboraceActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/SifActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/ArmageddonActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RostrumActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/AstroHuntActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RobowarActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/AstronomyActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LfrActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/QuestActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CodingActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/ContactUsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/DeveloperFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/LectureFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/WorkshopFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/Layer3Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/Layer2Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/CardAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/LectureAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/FixthebugActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/ManagementActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/DeveloperAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
     <option name="width" value="1366" />
-    <option name="height" value="687" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2082,8 +2177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -2092,10 +2185,6 @@
               <option name="myItemId" value="Plinth" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2157,34 +2246,14 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Fragment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plinth" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plinth" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Activity" />
+              <option name="myItemId" value="Adapter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -2192,13 +2261,16 @@
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="e9ab4d4f" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/plinth" />
+    <property name="device.picker.selection" value="4eb0a0b2" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="VectorAssetImportPath" value="$USER_HOME$/plinth" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="ExportApk.ApkPath" value="$USER_HOME$/Desktop/plinth" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2668,7 +2740,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484234493488</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="final">
+      <created>1484336777240</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1484336777240</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2681,19 +2760,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="687" extended-state="6" />
+    <frame x="0" y="24" width="1366" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285968" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3339254" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3339161" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285968" sideWeight="0.5060606" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8365897" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285968" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.83566433" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32692307" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285968" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285968" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2706,7 +2785,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39964476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6013986" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2784,307 +2863,460 @@
     <MESSAGE value="sign in" />
     <MESSAGE value="workshop complete" />
     <MESSAGE value="prefinal" />
-    <option name="LAST_COMMIT_MESSAGE" value="prefinal" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteLoginActivity.java</url>
-          <line>66</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteLoginActivity.java</url>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/ContactUsFragment.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/ContactUsFragment.java</url>
           <line>75</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteLoginActivity.java</url>
-          <line>178</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteLoginActivity.java</url>
+          <line>176</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java</url>
-          <line>166</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteRegisterActivity.java</url>
+          <line>163</line>
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java</url>
-          <line>189</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteRegisterActivity.java</url>
+          <line>186</line>
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java</url>
-          <line>100</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteRegisterActivity.java</url>
+          <line>97</line>
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java</url>
-          <line>124</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteRegisterActivity.java</url>
+          <line>121</line>
           <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java</url>
-          <line>146</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteRegisterActivity.java</url>
+          <line>143</line>
           <properties />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java</url>
-          <line>205</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteRegisterActivity.java</url>
+          <line>202</line>
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java</url>
-          <line>81</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteRegisterActivity.java</url>
+          <line>78</line>
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/Layer3Adapter.java</url>
-          <line>90</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/Layer3Adapter.java</url>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/LoginActivity.java</url>
-          <line>184</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LoginActivity.java</url>
+          <line>313</line>
           <properties />
-          <option name="timeStamp" value="77" />
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="78" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_coding.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_layout_speakers.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="594">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/RoboticsActivity.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_robotics.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/QuizzingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quizzing.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/LiteratureActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_literature.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/ManagementActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_management.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/CardAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="89" column="66" selection-start-line="89" selection-start-column="66" selection-end-line="89" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_photo_graphy_workshop.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/PhotoGraphyWorkshopActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16974">
-          <caret line="943" column="21" selection-start-line="943" selection-start-column="21" selection-end-line="943" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_complete_login.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/AboutUsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3996">
-          <caret line="222" column="36" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="36" />
+        <state relative-caret-position="25">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/MyApplication.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/CompetitionFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        <state relative-caret-position="97">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteLoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="288">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/PrinterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/DistarctionIupcActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/VehicleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RoboSoccerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/WebomasterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/QuadcopterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/StarTrekActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/AugmentedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/ProfileFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/QuizzingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CompleteRegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LiteratureActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/PhotoGraphyWorkshopActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/IupcActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RoboticsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/TransporterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/WrangleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RoboraceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/SifActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RostrumActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/AstroHuntActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/RobowarActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/AstronomyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LfrActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/QuestActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/CodingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/ContactUsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/DeveloperFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/LectureFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Fragment/WorkshopFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/Layer3Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/Layer2Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/CardAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/LectureAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/FixthebugActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/ManagementActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="102" column="225" selection-start-line="102" selection-start-column="225" selection-end-line="102" selection-end-column="225" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/ArmageddonActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-24/android/content/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="2930" column="31" selection-start-line="2930" selection-start-column="31" selection-end-line="2930" selection-end-column="31" />
+        <state relative-caret-position="7362">
+          <caret line="474" column="24" selection-start-line="474" selection-start-column="24" selection-end-line="474" selection-end-column="24" />
+          <folding>
+            <element signature="e#21024#21025#0" expanded="true" />
+            <element signature="e#21078#21079#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Activity/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="202">
+          <caret line="144" column="11" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4327#4553#0" expanded="true" />
+            <element signature="e#4552#4553#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_complete_register.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="219" column="58" selection-start-line="208" selection-start-column="12" selection-end-line="219" selection-end-column="58" />
+        <state relative-caret-position="216">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_contact_us.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Developer.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/ContactUsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="69" column="43" selection-start-line="67" selection-start-column="15" selection-end-line="69" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_developer.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_layout_developer.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-24/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="22449" column="13" selection-start-line="22449" selection-start-column="13" selection-end-line="22449" selection-end-column="13" />
+        <state relative-caret-position="216">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -3094,222 +3326,19 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Register.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lnmiit/madclub/plinth/Adapter/DeveloperAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/pager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="28" selection-start-line="10" selection-start-column="3" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Model/Validate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteLoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2304">
-          <caret line="152" column="34" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/response/registerResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/response/ValidateResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/rest/ApiInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/rest/ApiClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/Layer3Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_layout_pager.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="379" column="0" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
+        <state relative-caret-position="207">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/WorkshopFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/CompetitionFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/ProfileFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/HomeAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#479#480#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-            <element signature="e#709#710#0" expanded="false" />
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#872#873#0" expanded="false" />
-            <element signature="e#915#916#0" expanded="false" />
-            <element signature="e#957#958#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/LectureFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/LectureAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3704#3705#0" expanded="false" />
-            <element signature="e#3738#3739#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_layout_speakers.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/DeveloperFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Adapter/DeveloperAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding>
-            <element signature="e#4081#4082#0" expanded="false" />
-            <element signature="e#4117#4118#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/CompleteRegisterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="173" column="4" selection-start-line="173" selection-start-column="4" selection-end-line="173" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Fragment/HomeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lnmiit/plinth/Activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>

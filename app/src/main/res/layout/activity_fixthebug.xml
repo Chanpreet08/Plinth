@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/cardview_shadow_start_color"
-    tools:context="com.lnmiit.plinth.Activity.AstroHuntActivity">
+    tools:context="com.madclub.plinth.lnmiit.madclub.plinth.Activity.AstroHuntActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager_fixthebug"

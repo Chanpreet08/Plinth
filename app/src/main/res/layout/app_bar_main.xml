@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.lnmiit.plinth.Activity.MainActivity">
+    tools:context="com.madclub.plinth.lnmiit.madclub.plinth.Activity.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
