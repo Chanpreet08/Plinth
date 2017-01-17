@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity
 
     private Fragment fragment;
     private TextView text;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,11 +46,10 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         fragment = new HomeFragment();
-        if(fragment!=null)
-        {
+        if (fragment != null) {
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.container,fragment);
+            fragmentTransaction.replace(R.id.container, fragment);
             fragmentTransaction.commit();
         }
     }
@@ -88,13 +88,12 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.home) {
             fragment = new HomeFragment();
             getSupportActionBar().setTitle("Plinth");
-        }else if (id == R.id.schedule) {
+        } else if (id == R.id.schedule) {
             String url = "https://plinth.in/schedule";
             Intent i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse(url));
             startActivity(i);
-        }
-        else if (id == R.id.contact_us) {
+        } else if (id == R.id.contact_us) {
             fragment = new ContactUsFragment();
             getSupportActionBar().setTitle("Contact Us");
         } else if (id == R.id.share) {
@@ -102,20 +101,25 @@ public class MainActivity extends AppCompatActivity
             shareIntent.putExtra(Intent.EXTRA_TEXT,
                     "App!! It's time you have it too! To get the entire Plinth schedule and lot more interactive activities download the app from play store: https://play.google.com/store/apps/details?id=lnmiit.madclub.plinth");
             shareIntent.setType("text/plain");
-            startActivity(Intent.createChooser(shareIntent,"Share With"));
+            startActivity(Intent.createChooser(shareIntent, "Share With"));
+        } else if (id == R.id.bus) {
+            String uri = "https://plinth.in/media/pdfs/bus.pdf";
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(uri));
+            startActivity(intent);
+
         } else if (id == R.id.about_us) {
-            fragment =  new AboutUsFragment();
+            fragment = new AboutUsFragment();
             getSupportActionBar().setTitle("About Us");
         } else if (id == R.id.developers) {
             getSupportActionBar().setTitle("Developers");
             fragment = new DeveloperFragment();
 
         }
-        if(fragment!=null)
-        {
+        if (fragment != null) {
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.container,fragment);
+            fragmentTransaction.replace(R.id.container, fragment);
             fragmentTransaction.commit();
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
