@@ -31,7 +31,7 @@ public class DeveloperAdapter extends RecyclerView.Adapter<DeveloperAdapter.View
     private String githubs[]={"https://github.com/Chanpreet08","https://github.com/deepadaga"};
     private String mail[]={"chanpreet.chhabra@gmail.com","deepadaga1995@gmail.com"};
     private String phones[]={"+91-9602976558","+91-9649341430"};
-    private String images[]={"http://bit.ly/2jbbFhe","http://bit.ly/2iwe2d2"};
+    private String images[]={"http://bit.ly/2jvmbjd","http://bit.ly/2j4KWjb"};
     public DeveloperAdapter( Context context)
     {
         this.context = context;

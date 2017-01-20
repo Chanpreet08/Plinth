@@ -10,6 +10,10 @@
             android:id="@+id/schedule"
             android:icon="@drawable/ic_access_time_black_24px"
             android:title="Schedule" />
+        <item
+            android:id="@+id/bus"
+            android:icon="@drawable/ic_directions_bus_black_24px"
+            android:title="Bus Timings" />
     </group>
 
     <item android:title="Communicate">
